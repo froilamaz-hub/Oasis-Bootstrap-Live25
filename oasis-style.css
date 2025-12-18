@@ -22,7 +22,6 @@ h2,
 h3,
 .navbar-brand {
   letter-spacing: 0.05em;
-  text-transform: uppercase;
 }
 
 /* Títulos con estética tipo logo Oasis */
@@ -35,7 +34,7 @@ h3.oasis-heading {
   font-weight: 900 !important; /* Black */
   font-style: italic;
   letter-spacing: 0.05em;
-  text-transform: uppercase;
+
   color: #111111 !important;
 }
 
@@ -47,10 +46,6 @@ h3.oasis-heading {
   padding-bottom: 0.6rem;
 }
 
-.oasis-navbar .navbar-brand {
-  color: #ffffff;
-}
-
 .oasis-logo-img {
   height: 65px;
   display: block;
@@ -58,11 +53,9 @@ h3.oasis-heading {
 }
 
 .oasis-navbar .nav-link {
-  color: #ffffff;
   font-weight: 500;
   margin-left: 1.8rem;
   padding: 0;
-  position: relative;
 }
 
 .oasis-navbar .nav-link::after {
@@ -111,7 +104,7 @@ main {
 
 .section-title {
   letter-spacing: 0.08em;
-  text-transform: uppercase;
+
   font-size: 0.9rem;
   color: #7a6c55;
 }
@@ -167,7 +160,7 @@ section[id] {
 }
 
 .tour-infografia-label {
-  text-transform: uppercase;
+
   letter-spacing: 0.12em;
   font-size: 0.8rem;
   margin-top: 0.25rem;
@@ -273,7 +266,7 @@ section[id] {
   font-size: 1.35rem;
   font-weight: 900;
   letter-spacing: 0.05em;
-  text-transform: uppercase;
+
   padding: 20px 0 0 0;
 }
 
@@ -286,7 +279,7 @@ section[id] {
 
 .tour-column-title {
   font-size: 1.45rem;
-  text-transform: uppercase;
+
   letter-spacing: 0.15em;
   color: darkgoldenrod;
   font-weight: 700;
@@ -342,7 +335,7 @@ section[id] {
 
 .setlist-title {
   font-weight: 500;
-  text-transform: uppercase;
+
   display: inline; /* misma línea que el número */
   margin-left: 0.25rem; /* espacio entre "1." y el nombre */
 }
@@ -456,13 +449,12 @@ section[id] {
   font-weight: 900;
   font-style: italic;
   letter-spacing: 0.12em;
-  text-transform: uppercase;
 }
 
 .form-oasis-label {
   font-size: 0.8rem;
   letter-spacing: 0.12em;
-  text-transform: uppercase;
+
   color: #7a6c55;
 }
 
@@ -526,14 +518,7 @@ section[id] {
 
 /* FILE INPUT CUSTOM */
 
-.custom-file-wrapper {
-  position: relative;
-}
-
 #expFotosReal {
-  position: absolute;
-  inset: 0;
-  opacity: 0;
   cursor: pointer;
 }
 
@@ -744,7 +729,6 @@ section[id] {
 
 /* Estado HAMBURGUESA (3 líneas) */
 .oasis-navbar .navbar-toggler-icon {
-  position: relative;
   width: 2rem;
   height: 3px;
   background-image: none; /* quitamos el ícono por defecto de Bootstrap */
@@ -823,7 +807,7 @@ section[id] {
 }
 
 .oasis-footer-title {
-  text-transform: uppercase;
+
   letter-spacing: 0.12em;
   font-size: 0.85rem;
   color: #c4b79a;
@@ -884,27 +868,27 @@ section[id] {
   /* Columna logo (izquierda) */
   .oasis-footer .col-md-4:first-child {
     text-align: left;
-  }
+}
 
   /* Columna “Secciones” (centro) */
   .oasis-footer .col-6.col-md-4.col-lg-3 {
     text-align: left;
-  }
+}
 
   /* Columna “Canales oficiales” (derecha) */
   .oasis-footer .col-6.col-md-4.col-lg-5 {
     text-align: right;
-  }
+}
 
   /* Redes hacia la derecha en desktop */
   .oasis-footer-social {
     justify-content: flex-end;
-  }
+}
 
   /* Botón “Volver arriba” alineado a la derecha en desktop */
   .oasis-footer-top {
     float: right;
-  }
+}
 }
 
 /* ===================================================== */
@@ -931,41 +915,41 @@ img,
   body {
     max-width: 100%;
     overflow-x: hidden;
-  }
+}
 
   /* Navbar y navegación responsive */
   #navbarOasisContent {
     padding-top: 0.75rem;
-  }
+}
 
   .oasis-navbar .nav-link {
     margin-left: 0;
-    padding: 0.35rem 0 0.4rem; 
-  }
+    padding: 0.35rem 0 0.4rem;
+}
 
   /* Subimos la línea del activo/hover en menú colapsado */
   .oasis-navbar .nav-link::after {
     bottom: 0.15rem;
     height: 2px;
-  }
+}
 }
 
 /* Ajustes mobile */
 @media (max-width: 767.98px) {
   .oasis-footer {
     text-align: left;
-  }
+}
 
   .oasis-footer-top {
     margin-top: 0.5rem;
-  }
+}
 
   #tour > .container-fluid.p-0,
   #setlist > .container-fluid.p-0,
   #experiencias > .container-fluid.p-0,
   #miscelaneas > .container-fluid.p-0 {
     overflow: hidden;
-  }
+}
 }
 
 /* Ajustes de la placa del tour SOLO para tablet (md) */
@@ -980,7 +964,7 @@ img,
   .tour-board-inner {
     padding-left: 3rem;
     padding-right: 3rem;
-  }
+}
 
   /* Ajuste fino de los títulos para ayudar a que no corten línea */
   .tour-column-title {
@@ -1000,7 +984,7 @@ img,
   .tour-board-inner {
     padding-left: 3rem;
     padding-right: 3rem;
-  }
+}
 
   /* 3) Ajuste fino de la línea de venue para que entre mejor */
   .tour-item-venue {
@@ -1045,17 +1029,17 @@ img,
     margin: 0 auto 0.75rem;
     object-fit: cover;
     object-position: center top;
-  }
+}
 
   /* Menos padding inferior del container de Inicio */
   #inicio > .container.py-5 {
     padding-bottom: 0.2rem !important;
-  }
+}
 
   /* Bajamos el gutter de la grilla de miembros */
   #inicio .row.row-cols-1.row-cols-sm-2.row-cols-md-3.row-cols-lg-3.g-3 {
     --bs-gutter-y: 0.5rem;
-  }
+}
 
   #tour > .container-fluid.p-0 > img.img-fluid.w-100,
   #setlist > .container-fluid.p-0 > img.img-fluid.w-100,
@@ -1066,14 +1050,14 @@ img,
     height: 220px; /* El segundo más llamativo después del banner hero */
     object-fit: cover;
     object-position: center bottom;
-  }
+}
 
   /* Botones del formulario de experiencias en columna */
   /* El contenedor de los botones pasa a columna y centrado */
   #experienciaForm .col-12.mt-4 > .d-flex.justify-content-center {
     flex-direction: column;
     align-items: center;
-  }
+}
 
   /* Cada botón se centra y tiene ancho consistente */
   #experienciaForm .col-12.mt-4 .btn {
@@ -1081,7 +1065,7 @@ img,
     max-width: 260px;
     margin-left: auto;
     margin-right: auto;
-  }
+}
 
   /* Fotos de álbumes en sección álbumes: más chicas */
   .album-cover-img,
@@ -1097,51 +1081,51 @@ img,
   .homenajes-list b {
     display: inline;
     margin-bottom: 0;
-  }
+}
 
   /* Logo un toque más chico para que no coma tanto alto */
   .oasis-logo-img {
     height: 52px;
-  }
+}
 
   /* Títulos y textos generales un poco más compactos */
   .section-title {
     font-size: 0.9rem;
-  }
+}
 
   .oasis-heading {
     font-size: 1.5rem;
-  }
+}
 
   .lead {
     font-size: 0.95rem;
-  }
+}
 
   /* Sección INICIO: que la foto y el texto respiren un poco */
   #inicio .row.g-4 > aside {
     margin-bottom: 1.25rem;
-  }
+}
 
   /* Imágenes de cantantes en SETLIST más bajas en celu */
   .setlist-singer-img {
     height: 260px;
-  }
+}
 
   /* Textos del setlist más compactos */
   .setlist-item {
     font-size: 0.9rem;
-  }
+}
 
   .setlist-meta-inline {
     font-size: 0.8rem;
-  }
+}
 
   /* FOOTER: misma "caja" que el menú hamburguesa */
   .oasis-footer .container {
     max-width: 320px; /* igual que el nav */
     margin-inline: auto; /* centrado */
     padding-inline: 1rem;
-  }
+}
 
   /* ---------- FORMULARIO EXPERIENCIAS ---------- */
 
@@ -1152,86 +1136,86 @@ img,
     margin: 1rem auto 0;
     font-size: 0.75rem;
     padding: 0.45rem 1.25rem;
-  }
+}
 
   /* Textito debajo de la píldora + lead de la sección */
   .oasis-exp-text {
     font-size: 0.95rem;
-  }
+}
 
   #experiencias .lead {
     font-size: 0.95rem;
-  }
+}
 
   /* Título “Vivencias de la Gira” un poco más chico */
   .experiencias-heading {
     font-size: 1.2rem;
-  }
+}
 
   /* Card del formulario con padding más reducido */
   .experiencias-card .card-body {
     padding: 1.25rem;
-  }
+}
 
   /* Reducimos un poco el gap vertical entre campos en mobile */
   #experiencias .row.g-4 {
     --bs-gutter-y: 1rem;
-  }
+}
 
   /* Inputs y selects: tipografía más chica para que entre todo bien */
   .oasis-experiencia-form .form-control,
   .oasis-experiencia-form .form-select {
     font-size: 0.95rem;
-  }
+}
 
   /* Botones de los dropdowns (Fecha, Canción, Ubicación, etc.) */
   .dropdown-select button.btn {
     font-size: 0.9rem;
     padding-top: 0.5rem;
     padding-bottom: 0.5rem;
-  }
+}
 
   /* Opciones del poll: un poquito más de aire */
   .experiencias-card .form-check {
     margin-bottom: 0.35rem;
-  }
+}
 
   /* Infografía del tour */
   .tour-infografia-item {
     align-items: flex-start;
-  }
+}
 
   .tour-infografia-icon {
     flex: 0 0 48px;
     height: 48px;
     margin-right: 1rem;
-  }
+}
 
   .tour-infografia-num {
     font-size: 2rem;
-  }
+}
 
   /* PLACA TOUR: una columna por fila, sin overflow */
   .tour-board-inner .col-12.col-md-6.col-lg-3 {
     flex: 0 0 100%;
     max-width: 100%;
     min-width: 0;
-  }
+}
 
   /* ---------- FOOTER ---------- */
 
   .oasis-footer {
     text-align: center;
-  }
+}
 
   .oasis-footer-top {
     margin-top: 1rem;
-  }
+}
 
   .oasis-footer-social {
     justify-content: center;
     flex-wrap: wrap;
-  }
+}
 
   /* FOOTER: centrar logo + texto dentro de la caja */
   .oasis-footer .col-md-4 > .d-flex {
@@ -1243,7 +1227,7 @@ img,
   .oasis-chart {
     max-height: 260px;
     object-fit: cover;
-  }
+}
 }
 
 /* ===== TABLETS (576px a 991.98px) ===== */
@@ -1255,7 +1239,7 @@ img,
     height: 320px;
     object-fit: cover;
     object-position: left center;
-  }
+}
 
   /* Imagen abrazo hermanos - algo más contenida en tablet también */
   #inicio .oasis-abrazo-img {
@@ -1263,7 +1247,7 @@ img,
     height: auto;
     display: block;
     margin: 0 auto 1.5rem;
-  }
+}
 
   /* Fotos de la sección "Formación en vivo" en tablet */
   .band-member-photo {
@@ -1274,11 +1258,11 @@ img,
     margin: 0 auto 0.75rem;
     object-fit: cover;
     object-position: center top;
-  }
+}
 
   #inicio > .container.py-5 {
     padding-bottom: 1.25rem !important;
-  }
+}
 
   #tour > .container-fluid.p-0 > img.img-fluid.w-100,
   #setlist > .container-fluid.p-0 > img.img-fluid.w-100,
@@ -1289,7 +1273,7 @@ img,
     height: 300px; /* algo menor que el hero principal */
     object-fit: cover;
     object-position: center bottom;
-  }
+}
 
   /* Fotos de álbumes en sección álbumes: tamaño intermedio */
   .album-cover-img,
@@ -1300,47 +1284,47 @@ img,
     margin: 0 auto 0.75rem;
     object-fit: cover;
     object-position: center;
-  }
+}
 
   /* Lista de homenajes: "Músicos:" en línea propia */
   .homenajes-list b {
     display: inline;
     margin-bottom: 0;
-  }
+}
 
   #inicio .row.row-cols-1.row-cols-sm-2.row-cols-md-3.row-cols-lg-3.g-3 {
     --bs-gutter-y: 0.4rem;
-  }
+}
 
   /* Títulos un toquecito más chicos que en desktop */
   .oasis-heading {
     font-size: 1.75rem;
-  }
+}
 
   .lead {
     font-size: 1rem;
-  }
+}
 
   /* Píldora del formulario no tan gigante en tablet */
   .oasis-exp-pill {
     width: 70%;
-  }
+}
 
   .experiencias-card .card-body {
     padding: 1.75rem;
-  }
+}
 
   /* Fotos de Liam / Noel en sección setlist un poco más bajas */
   .setlist-singer-img {
     height: 300px;
-  }
+}
 
   /* PLACA TOUR: dos columnas por fila, sin scroll horizontal */
   .tour-board-inner .col-12.col-md-6.col-lg-3 {
     flex: 0 0 50%;
     max-width: 50%;
     min-width: 0;
-  }
+}
 }
 
 /* =============================== */
@@ -1354,23 +1338,23 @@ img,
     max-width: 320px;
     margin-inline: auto;
     padding-inline: 1rem;
-  }
+}
 
   #navbarOasisContent {
     padding-top: 0.25rem !important;
-  }
+}
 
   .oasis-navbar .navbar-brand,
   .oasis-navbar .navbar-toggler {
     padding-top: 0.6rem;
     padding-bottom: 0.6rem;
-  }
+}
 
   /* AQUÍ VIENE LO IMPORTANTE: anulamos ms-4 en el <ul> */
   #navbarOasisContent .navbar-nav {
     padding-left: 3px !important;
     margin-left: 3px !important;
-  }
+}
 
   /* Y dejamos los links sin sangría extra */
   #navbarOasisContent .navbar-nav .nav-link {

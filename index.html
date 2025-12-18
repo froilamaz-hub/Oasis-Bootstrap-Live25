@@ -1,133 +1,81 @@
 <!DOCTYPE html>
+
 <html lang="es">
-  <head>
-    <meta charset="utf-8" />
-    <title>Oasis Live '25 - Landing Tour</title>
-    <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <meta name="description" content="Landing del tour Oasis Live '25: fechas, setlist y formulario de experiencias. Maquetado con Bootstrap 5." />
-
-    <!-- Tipografía -->
-<link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link
-  href="https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,400;0,500;0,600;0,700;1,800;1,900&display=swap"
-  rel="stylesheet"
-/>
-
-    <!-- Bootstrap CSS -->
-    <link
-      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
-      rel="stylesheet"
-      integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH"
-      crossorigin="anonymous"
-    />
-
-    <!-- Iconos Bootstrap -->
-    <link
-      rel="stylesheet"
-      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css"
-    />
-
+<head>
+<meta charset="utf-8"/>
+<title>Oasis Live '25 - Landing Tour</title>
+<meta content="width=device-width, initial-scale=1" name="viewport"/>
+<meta content="Landing del tour Oasis Live '25: fechas, setlist y formulario de experiencias. Maquetado con Bootstrap 5." name="description"/>
+<!-- Tipografía -->
+<link href="https://fonts.googleapis.com" rel="preconnect"/>
+<link crossorigin="" href="https://fonts.gstatic.com" rel="preconnect"/>
+<link href="https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,400;0,500;0,600;0,700;1,800;1,900&amp;display=swap" rel="stylesheet">
+<!-- Bootstrap CSS -->
+<link crossorigin="anonymous" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" rel="stylesheet">
+<!-- Iconos Bootstrap -->
+<link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css" rel="stylesheet"/>
 <!-- Llamo el CSS -->
-    <link rel="stylesheet" href="oasis-style.css" />
-  </head>
-
-  <body
-    data-bs-spy="scroll"
-    data-bs-target="#navbarOasis"
-    data-bs-offset="90"
-    data-bs-smooth-scroll="true"
-    tabindex="0"
-  >
-    <!-- HEADER + NAV -->
-    <header>
-      <nav
-        id="navbarOasis"
-        class="navbar navbar-expand-lg navbar-dark oasis-navbar fixed-top"
-        aria-label="Navegación principal"
-      >
-        <div class="container">
-          <a class="navbar-brand d-flex align-items-center" href="#inicio">
-            <img
-              src="img/logo-menu.png"
-              alt="Oasis Live '25"
-              class="oasis-logo-img"
-            />
-          </a>
-
-          <button
-            class="navbar-toggler"
-            type="button"
-            data-bs-toggle="collapse"
-            data-bs-target="#navbarOasisContent"
-            aria-controls="navbarOasisContent"
-            aria-expanded="false"
-            aria-label="Alternar navegación"
-          >
-            <span class="navbar-toggler-icon"></span>
-          </button>
-
-          <div class="collapse navbar-collapse" id="navbarOasisContent">
-            <ul class="navbar-nav ms-4 ms-lg-5 mb-2 mb-lg-0">
-              <li class="nav-item">
-                <a class="nav-link" href="#inicio">Inicio</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="#tour">Tour</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="#setlist">Setlist</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="#experiencias">Experiencias</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="#miscelaneas">Misceláneas</a>
-              </li>
-            </ul>
-          </div>
-        </div>
-      </nav>
-    </header>
-
-    <!-- CONTENIDO PRINCIPAL -->
-    <main>
-      <!-- SECCIÓN INICIO -->
-      <section id="inicio" class="pt-0">
-        <!-- HERO FULL WIDTH SOLO IMAGEN -->
-        <div class="container-fluid p-0">
-          <img
-            src="img/oasis-hero-banner-inicio.png"
-            alt="Liam y Noel Gallagher - Oasis Live '25"
-            class="img-fluid w-100"
-          />
-        </div>
-
-        <!-- CONTENIDO PRINCIPAL INICIO -->
-        <div class="container py-5">
-          <div class="row g-4 align-items-stretch">
-            <!-- IMAGEN IZQUIERDA -->
+<link href="oasis-style.css" rel="stylesheet"/>
+</link></link></head>
+<body data-bs-offset="90" data-bs-smooth-scroll="true" data-bs-spy="scroll" data-bs-target="#navbarOasis" tabindex="0">
+<!-- HEADER + NAV -->
+<header>
+<nav aria-label="Navegación principal" class="navbar navbar-expand-lg navbar-dark oasis-navbar fixed-top" id="navbarOasis">
+<div class="container">
+<a class="navbar-brand d-flex align-items-center" href="#inicio">
+<img alt="Oasis Live '25" class="oasis-logo-img" src="img/logo-menu.png"/>
+</a>
+<button aria-controls="navbarOasisContent" aria-expanded="false" aria-label="Alternar navegación" class="navbar-toggler" data-bs-target="#navbarOasisContent" data-bs-toggle="collapse" type="button">
+<span class="navbar-toggler-icon position-relative"></span>
+</button>
+<div class="collapse navbar-collapse" id="navbarOasisContent">
+<ul class="navbar-nav ms-4 ms-lg-5 mb-2 mb-lg-0">
+<li class="nav-item">
+<a class="nav-link text-white position-relative" href="#inicio">Inicio</a>
+</li>
+<li class="nav-item">
+<a class="nav-link text-white position-relative" href="#tour">Tour</a>
+</li>
+<li class="nav-item">
+<a class="nav-link text-white position-relative" href="#setlist">Setlist</a>
+</li>
+<li class="nav-item">
+<a class="nav-link text-white position-relative" href="#experiencias">Experiencias</a>
+</li>
+<li class="nav-item">
+<a class="nav-link text-white position-relative" href="#miscelaneas">Misceláneas</a>
+</li>
+</ul>
+</div>
+</div>
+</nav>
+</header>
+<!-- CONTENIDO PRINCIPAL -->
+<main>
+<!-- SECCIÓN INICIO -->
+<section class="pt-0" id="inicio">
+<!-- HERO FULL WIDTH SOLO IMAGEN -->
+<div class="container-fluid p-0">
+<img alt="Liam y Noel Gallagher - Oasis Live '25" class="img-fluid w-100" src="img/oasis-hero-banner-inicio.png"/>
+</div>
+<!-- CONTENIDO PRINCIPAL INICIO -->
+<div class="container py-5">
+<div class="row g-4 align-items-stretch">
+<!-- IMAGEN IZQUIERDA -->
 <aside class="col-12 col-lg-6 d-flex">
-  <img
-    src="img/Abrazo-Hermanos-Inicio.jpg"
-    alt="Liam y Noel Gallagher abrazándose en el escenario"
-    class="rounded w-100 h-100 object-fit-cover oasis-abrazo-img"
-  />
+<img alt="Liam y Noel Gallagher abrazándose en el escenario" class="rounded w-100 h-100 object-fit-cover oasis-abrazo-img" src="img/Abrazo-Hermanos-Inicio.jpg"/>
 </aside>
-
-            <!-- TEXTO DERECHA -->
-            <article class="col-12 col-lg-6">
-              <p class="section-title mb-1">Oasis · Gira Mundial</p>
-              <h1 class="h1 fw-bold oasis-heading">Live '25 Tour</h1>
-
-              <p class="lead mt-3">
+<!-- TEXTO DERECHA -->
+<article class="col-12 col-lg-6">
+<p class="section-title mb-1 text-uppercase">Oasis · Gira Mundial</p>
+<h1 class="h1 fw-bold oasis-heading text-uppercase">Live '25 Tour</h1>
+<p class="lead mt-3">
                 El Tour fue anunciado el 27 de agosto de 2024 y marcó el regreso
                 de la emblemática banda de rock inglesa desde que se separaron
                 en 2009.
               </p>
-
-              <h3 class="h5 mt-4">Repercusiones</h3>
-              <p class="mt-3">
+<h3 class="h5 mt-4 text-uppercase">Repercusiones</h3>
+<p class="mt-3">
                 Los boletos de venta general tuvieron una demanda sin
                 precedentes y se agotaron en minutos, lo que llevó a que los
                 usuarios informaran largos tiempos de espera, mensajes de error
@@ -135,2384 +83,1798 @@
                 dinámicos, tiempos de compra limitados y tarifas altas para
                 revendedores.
               </p>
-              <p class="mt-3">
+<p class="mt-3">
                 Para satisfacer la demanda, Oasis anunció múltiples fechas de
                 conciertos adicionales en el Reino Unido e Irlanda, seguidas de
                 fechas en América del Norte, Asia, Australia y cerrando la
                 masiva gira en América del Sur.
               </p>
-            </article>
-          </div>
-
-          <!-- FORMACIÓN DE LA BANDA -->
-          <div class="mt-5">
-            <h3 class="h3 fw-bold text-center mb-4 oasis-heading">Formación en vivo</h3>
-            <div
-              class="row row-cols-1 row-cols-sm-2 row-cols-md-3 row-cols-lg-6 g-3"
-            >
-              <!-- LIAM GALLAGHER -->
-              <div class="col">
-                <div class="card h-100 border-0 bg-transparent text-center">
-                  <img
-                    src="img/liam-gallagher-card.jpg"
-                    class="card-img-top rounded band-member-photo"                    alt="Liam Gallagher"
-                  />
-                  <div class="card-body px-0">
-                    <p class="fw-bold mb-1 band-member-name">Liam Gallagher</p>
-                    <p class="small mb-0">Voz principal, Pandereta</p>
-                  </div>
-                </div>
-              </div>
-
-              <!-- NOEL GALLAGHER -->
-              <div class="col">
-                <div class="card h-100 border-0 bg-transparent text-center">
-                  <img
-                    src="img/noel-gallagher-card.jpg"
-                    class="card-img-top rounded band-member-photo"                    alt="Noel Gallagher"
-                  />
-                  <div class="card-body px-0">
-                    <p class="fw-bold mb-1 band-member-name">Noel Gallagher</p>
-                    <p class="small mb-0">Coros, Voz y 1er Guitarra</p>
-                  </div>
-                </div>
-              </div>
-
-              <!-- BONEHEAD -->
-              <div class="col">
-                <div class="card h-100 border-0 bg-transparent text-center">
-                  <img
-                    src="img/bonehead-card.jpg"
-                    class="card-img-top rounded band-member-photo"                    alt="Bonehead"
-                  />
-                  <div class="card-body px-0">
-                    <p class="fw-bold mb-1 band-member-name">Bonehead</p>
-                    <p class="small mb-0">Guitarra rítmica</p>
-                  </div>
-                </div>
-              </div>
-
-              <!-- GEM ARCHER -->
-              <div class="col">
-                <div class="card h-100 border-0 bg-transparent text-center">
-                  <img
-                    src="img/gem-archer-card.jpg"
-                    class="card-img-top rounded band-member-photo"
-                    alt="Gem Archer"
-                  />
-                  <div class="card-body px-0">
-                    <p class="fw-bold mb-1 band-member-name">Gem Archer</p>
-                    <p class="small mb-0">2da Guitarra principal</p>
-                  </div>
-                </div>
-              </div>
-
-              <!-- ANDY BELL -->
-              <div class="col">
-                <div class="card h-100 border-0 bg-transparent text-center">
-                  <img
-                    src="img/andy-bell-card.jpg"
-                    class="card-img-top rounded band-member-photo"
-                    alt="Andy Bell"
-                  />
-                  <div class="card-body px-0">
-                    <p class="fw-bold mb-1 band-member-name">Andy Bell</p>
-                    <p class="small mb-0">Bajo Eléctrico</p>
-                  </div>
-                </div>
-              </div>
-
-              <!-- JOEY WARONKER -->
-              <div class="col">
-                <div class="card h-100 border-0 bg-transparent text-center">
-                  <img
-                    src="img/joey-waronker-card.jpg"
-                    class="card-img-top rounded band-member-photo"
-                    alt="Joey Waronker"
-                  />
-                  <div class="card-body px-0">
-                    <p class="fw-bold mb-1 band-member-name">Joey Waronker</p>
-                    <p class="small mb-0">Batería y percusión</p>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </section>
-
-      <!-- SECCIÓN TOUR -->
-      <section id="tour" class="border-top pt-0">
-        <!-- HERO FULL WIDTH SOLO IMAGEN -->
-        <div class="container-fluid p-0">
-          <img
-            src="img/oasis-hero-banner-tour.png"
-            alt="Escenario principal del Tour Oasis Live '25"
-            class="img-fluid w-100"
-          />
-        </div>
-
-        <!-- TÍTULO -->
-         <div class="container pt-3 pb-5 text-center">
-  <p class="section-title mb-1">Fechas del Tour</p>
-  <h2 class="h2 fw-bold text-center mb-2 oasis-heading">Presentaciones del Live '25</h2>
-  <p class="lead mt-1">Las principales ciudades de cada país fueron invadidas por la oasismanía con estadios repletos, noches eufóricas y shows icónicos.
+</article>
+</div>
+<!-- FORMACIÓN DE LA BANDA -->
+<div class="mt-5">
+<h3 class="h3 fw-bold text-center mb-4 oasis-heading text-uppercase">Formación en vivo</h3>
+<div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 row-cols-lg-6 g-3">
+<!-- LIAM GALLAGHER -->
+<div class="col">
+<div class="card h-100 border-0 bg-transparent text-center">
+<img alt="Liam Gallagher" class="card-img-top rounded band-member-photo" src="img/liam-gallagher-card.jpg"/>
+<div class="card-body px-0">
+<p class="fw-bold mb-1 band-member-name">Liam Gallagher</p>
+<p class="small mb-0">Voz principal, Pandereta</p>
+</div>
+</div>
+</div>
+<!-- NOEL GALLAGHER -->
+<div class="col">
+<div class="card h-100 border-0 bg-transparent text-center">
+<img alt="Noel Gallagher" class="card-img-top rounded band-member-photo" src="img/noel-gallagher-card.jpg"/>
+<div class="card-body px-0">
+<p class="fw-bold mb-1 band-member-name">Noel Gallagher</p>
+<p class="small mb-0">Coros, Voz y 1er Guitarra</p>
+</div>
+</div>
+</div>
+<!-- BONEHEAD -->
+<div class="col">
+<div class="card h-100 border-0 bg-transparent text-center">
+<img alt="Bonehead" class="card-img-top rounded band-member-photo" src="img/bonehead-card.jpg"/>
+<div class="card-body px-0">
+<p class="fw-bold mb-1 band-member-name">Bonehead</p>
+<p class="small mb-0">Guitarra rítmica</p>
+</div>
+</div>
+</div>
+<!-- GEM ARCHER -->
+<div class="col">
+<div class="card h-100 border-0 bg-transparent text-center">
+<img alt="Gem Archer" class="card-img-top rounded band-member-photo" src="img/gem-archer-card.jpg"/>
+<div class="card-body px-0">
+<p class="fw-bold mb-1 band-member-name">Gem Archer</p>
+<p class="small mb-0">2da Guitarra principal</p>
+</div>
+</div>
+</div>
+<!-- ANDY BELL -->
+<div class="col">
+<div class="card h-100 border-0 bg-transparent text-center">
+<img alt="Andy Bell" class="card-img-top rounded band-member-photo" src="img/andy-bell-card.jpg"/>
+<div class="card-body px-0">
+<p class="fw-bold mb-1 band-member-name">Andy Bell</p>
+<p class="small mb-0">Bajo Eléctrico</p>
+</div>
+</div>
+</div>
+<!-- JOEY WARONKER -->
+<div class="col">
+<div class="card h-100 border-0 bg-transparent text-center">
+<img alt="Joey Waronker" class="card-img-top rounded band-member-photo" src="img/joey-waronker-card.jpg"/>
+<div class="card-body px-0">
+<p class="fw-bold mb-1 band-member-name">Joey Waronker</p>
+<p class="small mb-0">Batería y percusión</p>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</section>
+<!-- SECCIÓN TOUR -->
+<section class="border-top pt-0" id="tour">
+<!-- HERO FULL WIDTH SOLO IMAGEN -->
+<div class="container-fluid p-0">
+<img alt="Escenario principal del Tour Oasis Live '25" class="img-fluid w-100" src="img/oasis-hero-banner-tour.png"/>
+</div>
+<!-- TÍTULO -->
+<div class="container pt-3 pb-5 text-center">
+<p class="section-title mb-1 text-uppercase">Fechas del Tour</p>
+<h2 class="h2 fw-bold text-center mb-2 oasis-heading text-uppercase">Presentaciones del Live '25</h2>
+<p class="lead mt-1">Las principales ciudades de cada país fueron invadidas por la oasismanía con estadios repletos, noches eufóricas y shows icónicos.
   </p>
 </div>
-        <!-- BLOQUE TOUR EN NÚMEROS (SLIDER + INFOGRAFÍA) -->
-        <div class="container pb-5">
-          <div class="row gy-4 gx-5 align-items-stretch">
-            <!-- IZQUIERDA: SLIDER -->
-            <aside class="col-12 col-lg-6">
-<div
-  id="carouselTour"
-  class="carousel slide carousel-fade h-100"
-  data-bs-ride="carousel"
->
-                <div class="carousel-inner">
-                  <div class="carousel-item active">
-                    <img
-                      src="img/carrusel-1.jpg"
-                      class="d-block w-100"
-                      alt="Oasis Live '25 - Slide 1"
-                    />
-                  </div>
-                  <div class="carousel-item">
-                    <img
-                      src="img/carrusel-2.jpg"
-                      class="d-block w-100"
-                      alt="Oasis Live '25 - Slide 2"
-                    />
-                  </div>
-                  <div class="carousel-item">
-                    <img
-                      src="img/carrusel-3.jpg"
-                      class="d-block w-100"
-                      alt="Oasis Live '25 - Slide 3"
-                    />
-                  </div>
-                  <div class="carousel-item">
-                    <img
-                      src="img/carrusel-4.jpg"
-                      class="d-block w-100"
-                      alt="Oasis Live '25 - Slide 4"
-                    />
-                  </div>
-                  <div class="carousel-item">
-                    <img
-                      src="img/carrusel-5.jpg"
-                      class="d-block w-100"
-                      alt="Oasis Live '25 - Slide 5"
-                    />
-                  </div>
-                  <div class="carousel-item">
-                    <img
-                      src="img/carrusel-6.jpg"
-                      class="d-block w-100"
-                      alt="Oasis Live '25 - Slide 6"
-                    />
-                  </div>
-                </div>
-
-                <button
-                  class="carousel-control-prev"
-                  type="button"
-                  data-bs-target="#carouselTour"
-                  data-bs-slide="prev"
-                >
-                  <span
-                    class="carousel-control-prev-icon"
-                    aria-hidden="true"
-                  ></span>
-                  <span class="visually-hidden">Anterior</span>
-                </button>
-                <button
-                  class="carousel-control-next"
-                  type="button"
-                  data-bs-target="#carouselTour"
-                  data-bs-slide="next"
-                >
-                  <span
-                    class="carousel-control-next-icon"
-                    aria-hidden="true"
-                  ></span>
-                  <span class="visually-hidden">Siguiente</span>
-                </button>
-              </div>
-            </aside>
-
-            <!-- DERECHA: INFOGRAFÍA -->
-            <article class="col-12 col-lg-6">
-              <p class="section-title mb-1">El Tour, en números</p>
-
-              <div class="d-flex flex-column">
-                <div class="tour-infografia-item destacado">
-                  <div class="tour-infografia-icon">
-                    <img src="img/icon-reunion.png" alt="" aria-hidden="true" />
-                  </div>
-                  <div class="tour-infografia-text">
-                    <div class="tour-infografia-num">1</div>
-                    <div class="tour-infografia-label">Reunión</div>
-                  </div>
-                </div>
-
-                <div class="tour-infografia-item">
-                  <div class="tour-infografia-icon">
-                    <img src="img/icon-paises.png" alt="" aria-hidden="true" />
-                  </div>
-                  <div class="tour-infografia-text">
-                    <div class="tour-infografia-num">13</div>
-                    <div class="tour-infografia-label">Países</div>
-                  </div>
-                </div>
-
-                <div class="tour-infografia-item">
-                  <div class="tour-infografia-icon">
-                    <img src="img/icon-personas.png" alt="" aria-hidden="true" />
-                  </div>
-                  <div class="tour-infografia-text">
-                    <div class="tour-infografia-num">4,5M</div>
-                    <div class="tour-infografia-label">Personas en vivo</div>
-                  </div>
-                </div>
-
-                <div class="tour-infografia-item">
-                  <div class="tour-infografia-icon">
-                    <img
-                      src="img/icon-streaming.png"
-                      alt=""
-                      aria-hidden="true"
-                    />
-                  </div>
-                  <div class="tour-infografia-text">
-                    <div class="tour-infografia-num">+250M</div>
-                    <div class="tour-infografia-label">
+<!-- BLOQUE TOUR EN NÚMEROS (SLIDER + INFOGRAFÍA) -->
+<div class="container pb-5">
+<div class="row gy-4 gx-5 align-items-stretch">
+<!-- IZQUIERDA: SLIDER -->
+<aside class="col-12 col-lg-6">
+<div class="carousel slide carousel-fade h-100" data-bs-ride="carousel" id="carouselTour">
+<div class="carousel-inner">
+<div class="carousel-item active">
+<img alt="Oasis Live '25 - Slide 1" class="d-block w-100" src="img/carrusel-1.jpg"/>
+</div>
+<div class="carousel-item">
+<img alt="Oasis Live '25 - Slide 2" class="d-block w-100" src="img/carrusel-2.jpg"/>
+</div>
+<div class="carousel-item">
+<img alt="Oasis Live '25 - Slide 3" class="d-block w-100" src="img/carrusel-3.jpg"/>
+</div>
+<div class="carousel-item">
+<img alt="Oasis Live '25 - Slide 4" class="d-block w-100" src="img/carrusel-4.jpg"/>
+</div>
+<div class="carousel-item">
+<img alt="Oasis Live '25 - Slide 5" class="d-block w-100" src="img/carrusel-5.jpg"/>
+</div>
+<div class="carousel-item">
+<img alt="Oasis Live '25 - Slide 6" class="d-block w-100" src="img/carrusel-6.jpg"/>
+</div>
+</div>
+<button class="carousel-control-prev" data-bs-slide="prev" data-bs-target="#carouselTour" type="button">
+<span aria-hidden="true" class="carousel-control-prev-icon"></span>
+<span class="visually-hidden">Anterior</span>
+</button>
+<button class="carousel-control-next" data-bs-slide="next" data-bs-target="#carouselTour" type="button">
+<span aria-hidden="true" class="carousel-control-next-icon"></span>
+<span class="visually-hidden">Siguiente</span>
+</button>
+</div>
+</aside>
+<!-- DERECHA: INFOGRAFÍA -->
+<article class="col-12 col-lg-6">
+<p class="section-title mb-1 text-uppercase">El Tour, en números</p>
+<div class="d-flex flex-column">
+<div class="tour-infografia-item destacado">
+<div class="tour-infografia-icon">
+<img alt="" aria-hidden="true" src="img/icon-reunion.png"/>
+</div>
+<div class="tour-infografia-text">
+<div class="tour-infografia-num">1</div>
+<div class="tour-infografia-label text-uppercase">Reunión</div>
+</div>
+</div>
+<div class="tour-infografia-item">
+<div class="tour-infografia-icon">
+<img alt="" aria-hidden="true" src="img/icon-paises.png"/>
+</div>
+<div class="tour-infografia-text">
+<div class="tour-infografia-num">13</div>
+<div class="tour-infografia-label text-uppercase">Países</div>
+</div>
+</div>
+<div class="tour-infografia-item">
+<div class="tour-infografia-icon">
+<img alt="" aria-hidden="true" src="img/icon-personas.png"/>
+</div>
+<div class="tour-infografia-text">
+<div class="tour-infografia-num">4,5M</div>
+<div class="tour-infografia-label text-uppercase">Personas en vivo</div>
+</div>
+</div>
+<div class="tour-infografia-item">
+<div class="tour-infografia-icon">
+<img alt="" aria-hidden="true" src="img/icon-streaming.png"/>
+</div>
+<div class="tour-infografia-text">
+<div class="tour-infografia-num">+250M</div>
+<div class="tour-infografia-label text-uppercase">
                       Reproducciones en servicios de streaming
                     </div>
-                  </div>
-                </div>
-              </div>
-            </article>
-          </div>
-        </div>
-
-        <!-- PLACA TOUR -->
-        <div class="tour-board">
-          <div class="container">
-            <div class="row justify-content-center">
-              <div class="col-12 col-xl-12">
-                <div class="tour-board-inner rounded-3">
-                  <div class="row text-center gy-4">
-                    <!-- REINO UNIDO -->
-                    <div
-                      class="col-12 col-md-6 col-lg-3 tour-region"
-                      data-page-mobile="1"
-                      data-page-tablet="1"
-                    >
-                      <h3 class="tour-column-title mb-3">Reino Unido</h3>
-
-                      <div class="tour-item">
-                        <div class="tour-item-city">Cardiff</div>
-                        <div class="tour-item-venue">
+</div>
+</div>
+</div>
+</article>
+</div>
+</div>
+<!-- PLACA TOUR -->
+<div class="tour-board">
+<div class="container">
+<div class="row justify-content-center">
+<div class="col-12 col-xl-12">
+<div class="tour-board-inner rounded-3">
+<div class="row text-center gy-4">
+<!-- REINO UNIDO -->
+<div class="col-12 col-md-6 col-lg-3 tour-region" data-page-mobile="1" data-page-tablet="1">
+<h3 class="tour-column-title mb-3 text-uppercase">Reino Unido</h3>
+<div class="tour-item">
+<div class="tour-item-city text-uppercase">Cardiff</div>
+<div class="tour-item-venue">
                           Est. Principado
                           <span class="tour-separator">●</span> 4
                           <span class="tour-separator">/</span> 5 julio
                         </div>
-                      </div>
-
-                      <div class="tour-item">
-                        <div class="tour-item-city">Manchester</div>
-                        <div class="tour-item-venue">
+</div>
+<div class="tour-item">
+<div class="tour-item-city text-uppercase">Manchester</div>
+<div class="tour-item-venue">
                           Parque Heaton
                           <span class="tour-separator">●</span> 11
                           <span class="tour-separator">/</span> 12
                           <span class="tour-separator">/</span> 19
                           <span class="tour-separator">/</span> 20 jul
                         </div>
-                      </div>
-
-                      <div class="tour-item">
-                        <div class="tour-item-city">Londres</div>
-                        <div class="tour-item-venue">
+</div>
+<div class="tour-item">
+<div class="tour-item-city text-uppercase">Londres</div>
+<div class="tour-item-venue">
                           Est. Wembley
                           <span class="tour-separator">●</span> 25
                           <span class="tour-separator">/</span> 26 jul
                           <span class="tour-separator">/</span> 2
                           <span class="tour-separator">/</span> 3 ago
                         </div>
-                      </div>
-
-                      <div class="tour-item">
-                        <div class="tour-item-city">Edimburgo</div>
-                        <div class="tour-item-venue">
+</div>
+<div class="tour-item">
+<div class="tour-item-city text-uppercase">Edimburgo</div>
+<div class="tour-item-venue">
                           Est. Murrayfield
                           <span class="tour-separator">●</span> 8
                           <span class="tour-separator">/</span> 9 ago
                         </div>
-                      </div>
-
-                      <div class="tour-item">
-                        <div class="tour-item-city">Dublín</div>
-                        <div class="tour-item-venue">
+</div>
+<div class="tour-item">
+<div class="tour-item-city text-uppercase">Dublín</div>
+<div class="tour-item-venue">
                           Parque Croke
                           <span class="tour-separator">●</span> 16
                           <span class="tour-separator">/</span> 17 ago
                         </div>
-                      </div>
-                    </div>
-
-                    <!-- NORTEAMÉRICA -->
-                    <div
-                      class="col-12 col-md-6 col-lg-3 tour-region"
-                      data-page-mobile="2"
-                      data-page-tablet="1"
-                    >
-                      <h3 class="tour-column-title mb-3">Norteamérica</h3>
-
-                      <div class="tour-item">
-                        <div class="tour-item-city">Toronto</div>
-                        <div class="tour-item-venue">
+</div>
+</div>
+<!-- NORTEAMÉRICA -->
+<div class="col-12 col-md-6 col-lg-3 tour-region" data-page-mobile="2" data-page-tablet="1">
+<h3 class="tour-column-title mb-3 text-uppercase">Norteamérica</h3>
+<div class="tour-item">
+<div class="tour-item-city text-uppercase">Toronto</div>
+<div class="tour-item-venue">
                           Est. Rogers
                           <span class="tour-separator">●</span> 24
                           <span class="tour-separator">/</span> 25 ago
                         </div>
-                      </div>
-
-                      <div class="tour-item">
-                        <div class="tour-item-city">Chicago</div>
-                        <div class="tour-item-venue">
+</div>
+<div class="tour-item">
+<div class="tour-item-city text-uppercase">Chicago</div>
+<div class="tour-item-venue">
                           Est. Soldier Field
                           <span class="tour-separator">●</span> 28 ago
                         </div>
-                      </div>
-
-                      <div class="tour-item">
-                        <div class="tour-item-city">New Jersey</div>
-                        <div class="tour-item-venue">
+</div>
+<div class="tour-item">
+<div class="tour-item-city text-uppercase">New Jersey</div>
+<div class="tour-item-venue">
                           Est. Metlife
                           <span class="tour-separator">●</span> 31 ago
                           <span class="tour-separator">/</span> 1 sept
                         </div>
-                      </div>
-
-                      <div class="tour-item">
-                        <div class="tour-item-city">Los Ángeles</div>
-                        <div class="tour-item-venue">
+</div>
+<div class="tour-item">
+<div class="tour-item-city text-uppercase">Los Ángeles</div>
+<div class="tour-item-venue">
                           Est. Rose Bowl
                           <span class="tour-separator">●</span> 6
-                          <span class="tour-separator">/</span> 7 de sept
+                          <span class="tour-separator">/</span> 7 sept
                         </div>
-                      </div>
-
-                      <div class="tour-item">
-                        <div class="tour-item-city">México D.F.</div>
-                        <div class="tour-item-venue">
+</div>
+<div class="tour-item">
+<div class="tour-item-city text-uppercase">México D.F.</div>
+<div class="tour-item-venue">
                           Est. GNP Seguros
                           <span class="tour-separator">●</span> 12
                           <span class="tour-separator">/</span> 13 sept
                         </div>
-                      </div>
-                    </div>
-
-                    <!-- ASIA Y OCEANÍA -->
-                    <div
-                      class="col-12 col-md-6 col-lg-3 tour-region"
-                      data-page-mobile="3"
-                      data-page-tablet="2"
-                    >
-                      <h3 class="tour-column-title mb-3">Asia Pacif.</h3>
-
-                      <div class="tour-item">
-                        <div class="tour-item-city">Seúl</div>
-                        <div class="tour-item-venue">
+</div>
+</div>
+<!-- ASIA Y OCEANÍA -->
+<div class="col-12 col-md-6 col-lg-3 tour-region" data-page-mobile="3" data-page-tablet="2">
+<h3 class="tour-column-title mb-3 text-uppercase">Asia Pacif.</h3>
+<div class="tour-item">
+<div class="tour-item-city text-uppercase">Seúl</div>
+<div class="tour-item-venue">
                           Est. Coreano de Goyang
                           <span class="tour-separator">●</span> 21 oct
                         </div>
-                      </div>
-
-                      <div class="tour-item">
-                        <div class="tour-item-city">Tokyo</div>
-                        <div class="tour-item-venue">
+</div>
+<div class="tour-item">
+<div class="tour-item-city text-uppercase">Tokyo</div>
+<div class="tour-item-venue">
                           Domo de Tokyo
                           <span class="tour-separator">●</span> 25
                           <span class="tour-separator">/</span> 26 oct
                         </div>
-                      </div>
-
-                      <div class="tour-item">
-                        <div class="tour-item-city">Melbourne</div>
-                        <div class="tour-item-venue">
+</div>
+<div class="tour-item">
+<div class="tour-item-city text-uppercase">Melbourne</div>
+<div class="tour-item-venue">
                           Est. Marvel
                           <span class="tour-separator">●</span> 31 oct
                           <span class="tour-separator">/</span> 1
                           <span class="tour-separator">/</span> 4 nov
                         </div>
-                      </div>
-
-                      <div class="tour-item">
-                        <div class="tour-item-city">Sydney</div>
-                        <div class="tour-item-venue">
+</div>
+<div class="tour-item">
+<div class="tour-item-city text-uppercase">Sydney</div>
+<div class="tour-item-venue">
                           Est. Accor
                           <span class="tour-separator">●</span> 7
                           <span class="tour-separator">/</span> 8 nov
                         </div>
-                      </div>
-                    </div>
-
-                    <!-- SUDAMÉRICA -->
-                    <div
-                      class="col-12 col-md-6 col-lg-3 tour-region"
-                      data-page-mobile="4"
-                      data-page-tablet="2"
-                    >
-                      <h3 class="tour-column-title mb-3">Sudamérica</h3>
-
-                      <div class="tour-item">
-                        <div class="tour-item-city">Buenos Aires</div>
-                        <div class="tour-item-venue">
+</div>
+</div>
+<!-- SUDAMÉRICA -->
+<div class="col-12 col-md-6 col-lg-3 tour-region" data-page-mobile="4" data-page-tablet="2">
+<h3 class="tour-column-title mb-3 text-uppercase">Sudamérica</h3>
+<div class="tour-item">
+<div class="tour-item-city text-uppercase">Buenos Aires</div>
+<div class="tour-item-venue">
                           Est. Monumental
                           <span class="tour-separator">●</span> 15
                           <span class="tour-separator">/</span> 16 nov
                         </div>
-                      </div>
-
-                      <div class="tour-item">
-                        <div class="tour-item-city">Santiago</div>
-                        <div class="tour-item-venue">
+</div>
+<div class="tour-item">
+<div class="tour-item-city text-uppercase">Santiago</div>
+<div class="tour-item-venue">
                           Est. Nacional de Chile
                           <span class="tour-separator">●</span> 19 nov
                         </div>
-                      </div>
-
-                      <div class="tour-item">
-                        <div class="tour-item-city">San Pablo</div>
-                        <div class="tour-item-venue">
+</div>
+<div class="tour-item">
+<div class="tour-item-city text-uppercase">San Pablo</div>
+<div class="tour-item-venue">
                           Est. Morumbí
                           <span class="tour-separator">●</span> 22
                           <span class="tour-separator">/</span> 23 nov
                         </div>
-                      </div>
-                    </div>
-                  </div>
-                  <!-- row -->
-
-                  <!-- PAGINACIÓN (MOBILE / TABLET) -->
-                  <div class="tour-board-pagination mt-4 d-lg-none">
-                    <nav aria-label="Paginación de regiones del tour">
-                      <ul
-                        class="pagination pagination-sm justify-content-center mb-0"
-                        id="tourPagination"
-                      >
-                        <li class="page-item">
-                          <button
-                            class="page-link"
-                            type="button"
-                            data-tour-page="1"
-                          >
+</div>
+</div>
+</div>
+<!-- row -->
+<!-- PAGINACIÓN (MOBILE / TABLET) -->
+<div class="tour-board-pagination mt-4 d-lg-none">
+<nav aria-label="Paginación de regiones del tour">
+<ul class="pagination pagination-sm justify-content-center mb-0" id="tourPagination">
+<li class="page-item">
+<button class="page-link" data-tour-page="1" type="button">
                             1
                           </button>
-                        </li>
-                        <li class="page-item">
-                          <button
-                            class="page-link"
-                            type="button"
-                            data-tour-page="2"
-                          >
+</li>
+<li class="page-item">
+<button class="page-link" data-tour-page="2" type="button">
                             2
                           </button>
-                        </li>
-                        <li class="page-item">
-                          <button
-                            class="page-link"
-                            type="button"
-                            data-tour-page="3"
-                          >
+</li>
+<li class="page-item">
+<button class="page-link" data-tour-page="3" type="button">
                             3
                           </button>
-                        </li>
-                        <li class="page-item">
-                          <button
-                            class="page-link"
-                            type="button"
-                            data-tour-page="4"
-                          >
+</li>
+<li class="page-item">
+<button class="page-link" data-tour-page="4" type="button">
                             4
                           </button>
-                        </li>
-                      </ul>
-                    </nav>
-                    <p
-                      class="tour-board-pagination-label small text-muted text-center mt-2 mb-0"
-                    >
+</li>
+</ul>
+</nav>
+<p class="tour-board-pagination-label small text-muted text-center mt-2 mb-0">
                       Navegá por las regiones del tour
                     </p>
-                  </div>
-                  <!-- /tour-board-pagination -->
-                </div>
-                <!-- tour-board-inner -->
-              </div>
-            </div>
-          </div>
-        </div>
-      </section>
-
-
-      <!-- SECCIÓN SETLIST -->
-      <section id="setlist" class="pt-0 pb-5">
-        <!-- HERO FULL WIDTH SOLO IMAGEN -->
-        <div class="container-fluid p-0">
-          <img
-            src="img/oasis-hero-banner-setlist.png"
-            alt="Setlist típico del Tour"
-            class="img-fluid w-100"
-          />
-        </div>
-
-        <!-- TÍTULO -->
-         <div class="container pt-3 pb-5 text-center">
-  <p class="section-title mb-1">Setlist repleto de clásicos</p>
-  <h2 class="h2 fw-bold text-center mb-2 oasis-heading">Lista de Canciones de la Gira</h2>
-  <p class="lead mt-1">Los principales himnos de la banda se hicieron presentes en el setlist, aunque hubo ausencias importantes.
+</div>
+<!-- /tour-board-pagination -->
+</div>
+<!-- tour-board-inner -->
+</div>
+</div>
+</div>
+</div>
+</section>
+<!-- SECCIÓN SETLIST -->
+<section class="pt-0 pb-5" id="setlist">
+<!-- HERO FULL WIDTH SOLO IMAGEN -->
+<div class="container-fluid p-0">
+<img alt="Setlist típico del Tour" class="img-fluid w-100" src="img/oasis-hero-banner-setlist.png"/>
+</div>
+<!-- TÍTULO -->
+<div class="container pt-3 pb-5 text-center">
+<p class="section-title mb-1 text-uppercase">Setlist repleto de clásicos</p>
+<h2 class="h2 fw-bold text-center mb-2 oasis-heading text-uppercase">Lista de Canciones de la Gira</h2>
+<p class="lead mt-1">Los principales himnos de la banda se hicieron presentes en el setlist, aunque hubo ausencias importantes.
   </p>
 </div>
-        <div class="container">
-          <!-- CARD PRINCIPAL DEL SETLIST -->
-          <div class="row g-4">
-            <article class="col-12">
-              <div class="card h-100">
-                <div class="card-body">
-                  <h3 class="h5 card-title tour-item-city">Intro</h3>
-                  <ol class="mb-0">
-                    <li class="setlist-item">
-                      <span class="setlist-title">FUCKING IN THE BUSHES</span>
-                      <span class="setlist-meta-inline">
-                        <span class="setlist-meta-block">
-                          <i class="bi bi-file-music" aria-hidden="true"></i>
-                          <span>#1</span>
-                        </span>
-                        <span class="setlist-meta-block">
-                          <i class="bi bi-disc" aria-hidden="true"></i>
-                          <span>Standing on the Shoulder of Giants</span>
-                        </span>
-                        <span class="setlist-meta-block">
-                          <i class="bi bi-stopwatch" aria-hidden="true"></i>
-                          <span>3:19</span>
-                        </span>
-                      </span>
-                    </li>
-                    <li class="setlist-item">
-                      <span class="setlist-title">HELLO</span>
-                      <span class="setlist-meta-inline">
-                        <span class="setlist-meta-block">
-                          <i
-                            class="bi bi-file-earmark-music"
-                            aria-hidden="true"
-                          ></i>
-                          <span>#1</span>
-                        </span>
-                        <span class="setlist-meta-block">
-                          <i class="bi bi-disc" aria-hidden="true"></i>
-                          <span
-                            >(What's the Story) Morning Glory?</span
-                          >
-                        </span>
-                        <span class="setlist-meta-block">
-                          <i class="bi bi-stopwatch" aria-hidden="true"></i>
-                          <span>3:22</span>
-                        </span>
-                      </span>
-                    </li>
-                  </ol>
-
-                  <br />
-
-                  <h3 class="h5 card-title tour-item-city">Mid</h3>
-                  <ol class="mb-0" start="3">
-                    <li class="setlist-item">
-                      <span class="setlist-title">ACQUIESCE</span>
-                      <span class="setlist-meta-inline">
-                        <span class="setlist-meta-block">
-                          <i class="bi bi-file-music" aria-hidden="true"></i>
-                          <span>#1</span>
-                        </span>
-                        <span class="setlist-meta-block">
-                          <i class="bi bi-disc" aria-hidden="true"></i>
-                          <span>The Masterplan</span>
-                        </span>
-                        <span class="setlist-meta-block">
-                          <i class="bi bi-stopwatch" aria-hidden="true"></i>
-                          <span>4:24</span>
-                        </span>
-                      </span>
-                    </li>
-
-                    <li class="setlist-item">
-                      <span class="setlist-title">MORNING GLORY</span>
-                      <span class="setlist-meta-inline">
-                        <span class="setlist-meta-block">
-                          <i class="bi bi-file-music" aria-hidden="true"></i>
-                          <span>#10</span>
-                        </span>
-                        <span class="setlist-meta-block">
-                          <i class="bi bi-disc" aria-hidden="true"></i>
-                          <span
-                            >(What's the Story) Morning Glory?</span
-                          >
-                        </span>
-                        <span class="setlist-meta-block">
-                          <i class="bi bi-stopwatch" aria-hidden="true"></i>
-                          <span>5:03</span>
-                        </span>
-                      </span>
-                    </li>
-
-                    <li class="setlist-item">
-                      <span class="setlist-title">SOME MIGHT SAY</span>
-                      <span class="setlist-meta-inline">
-                        <span class="setlist-meta-block">
-                          <i class="bi bi-file-music" aria-hidden="true"></i>
-                          <span>#7</span>
-                        </span>
-                        <span class="setlist-meta-block">
-                          <i class="bi bi-disc" aria-hidden="true"></i>
-                          <span
-                            >(What's the Story) Morning Glory?</span
-                          >
-                        </span>
-                        <span class="setlist-meta-block">
-                          <i class="bi bi-stopwatch" aria-hidden="true"></i>
-                          <span>5:29</span>
-                        </span>
-                      </span>
-                    </li>
-
-                    <li class="setlist-item">
-                      <span class="setlist-title">BRING IT ON DOWN</span>
-                      <span class="setlist-meta-inline">
-                        <span class="setlist-meta-block">
-                          <i class="bi bi-file-music" aria-hidden="true"></i>
-                          <span>#7</span>
-                        </span>
-                        <span class="setlist-meta-block">
-                          <i class="bi bi-disc" aria-hidden="true"></i>
-                          <span>Definitely Maybe</span>
-                        </span>
-                        <span class="setlist-meta-block">
-                          <i class="bi bi-stopwatch" aria-hidden="true"></i>
-                          <span>4:17</span>
-                        </span>
-                      </span>
-                    </li>
-
-                    <li class="setlist-item">
-                      <span class="setlist-title">CIGARETTES AND ALCOHOL</span>
-                      <span class="setlist-meta-inline">
-                        <span class="setlist-meta-block">
-                          <i class="bi bi-file-music" aria-hidden="true"></i>
-                          <span>#8</span>
-                        </span>
-                        <span class="setlist-meta-block">
-                          <i class="bi bi-disc" aria-hidden="true"></i>
-                          <span>Definitely Maybe</span>
-                        </span>
-                        <span class="setlist-meta-block">
-                          <i class="bi bi-stopwatch" aria-hidden="true"></i>
-                          <span>4:50</span>
-                        </span>
-                      </span>
-                    </li>
-
-                    <li class="setlist-item">
-                      <span class="setlist-title">FADE AWAY</span>
-                      <span class="setlist-meta-inline">
-                        <span class="setlist-meta-block">
-                          <i class="bi bi-file-music" aria-hidden="true"></i>
-                          <span>#5</span>
-                        </span>
-                        <span class="setlist-meta-block">
-                          <i class="bi bi-disc" aria-hidden="true"></i>
-                          <span>The Masterplan</span>
-                        </span>
-                        <span class="setlist-meta-block">
-                          <i class="bi bi-stopwatch" aria-hidden="true"></i>
-                          <span>4:13</span>
-                        </span>
-                      </span>
-                    </li>
-
-                    <li class="setlist-item">
-                      <span class="setlist-title">SUPERSONIC</span>
-                      <span class="setlist-meta-inline">
-                        <span class="setlist-meta-block">
-                          <i class="bi bi-file-music" aria-hidden="true"></i>
-                          <span>#6</span>
-                        </span>
-                        <span class="setlist-meta-block">
-                          <i class="bi bi-disc" aria-hidden="true"></i>
-                          <span>Definitely Maybe</span>
-                        </span>
-                        <span class="setlist-meta-block">
-                          <i class="bi bi-stopwatch" aria-hidden="true"></i>
-                          <span>4:44</span>
-                        </span>
-                      </span>
-                    </li>
-
-                    <li class="setlist-item">
-                      <span class="setlist-title">ROLL WITH IT</span>
-                      <span class="setlist-meta-inline">
-                        <span class="setlist-meta-block">
-                          <i class="bi bi-file-music" aria-hidden="true"></i>
-                          <span>#2</span>
-                        </span>
-                        <span class="setlist-meta-block">
-                          <i class="bi bi-disc" aria-hidden="true"></i>
-                          <span
-                            >(What's the Story) Morning Glory?</span
-                          >
-                        </span>
-                        <span class="setlist-meta-block">
-                          <i class="bi bi-stopwatch" aria-hidden="true"></i>
-                          <span>3:59</span>
-                        </span>
-                      </span>
-                    </li>
-
-                    <li class="setlist-item">
-                      <span class="setlist-title">TALK TONIGHT</span>
-                      <span class="setlist-meta-inline">
-                        <span class="setlist-meta-block">
-                          <i class="bi bi-file-music" aria-hidden="true"></i>
-                          <span>#3</span>
-                        </span>
-                        <span class="setlist-meta-block">
-                          <i class="bi bi-disc" aria-hidden="true"></i>
-                          <span>The Masterplan</span>
-                        </span>
-                        <span class="setlist-meta-block">
-                          <i class="bi bi-stopwatch" aria-hidden="true"></i>
-                          <span>4:21</span>
-                        </span>
-                      </span>
-                    </li>
-
-                    <li class="setlist-item">
-                      <span class="setlist-title">HALF THE WORLD AWAY</span>
-                      <span class="setlist-meta-inline">
-                        <span class="setlist-meta-block">
-                          <i class="bi bi-file-music" aria-hidden="true"></i>
-                          <span>#10</span>
-                        </span>
-                        <span class="setlist-meta-block">
-                          <i class="bi bi-disc" aria-hidden="true"></i>
-                          <span>The Masterplan</span>
-                        </span>
-                        <span class="setlist-meta-block">
-                          <i class="bi bi-stopwatch" aria-hidden="true"></i>
-                          <span>4:21</span>
-                        </span>
-                      </span>
-                    </li>
-
-                    <li class="setlist-item">
-                      <span class="setlist-title">LITTLE BY LITTLE</span>
-                      <span class="setlist-meta-inline">
-                        <span class="setlist-meta-block">
-                          <i class="bi bi-file-music" aria-hidden="true"></i>
-                          <span>#6</span>
-                        </span>
-                        <span class="setlist-meta-block">
-                          <i class="bi bi-disc" aria-hidden="true"></i>
-                          <span>Heathen Chemistry</span>
-                        </span>
-                        <span class="setlist-meta-block">
-                          <i class="bi bi-stopwatch" aria-hidden="true"></i>
-                          <span>4:55</span>
-                        </span>
-                      </span>
-                    </li>
-
-                    <li class="setlist-item">
-                      <span class="setlist-title"
-                        >D'YOU KNOW WHAT I MEAN?</span
-                      >
-                      <span class="setlist-meta-inline">
-                        <span class="setlist-meta-block">
-                          <i class="bi bi-file-music" aria-hidden="true"></i>
-                          <span>#1</span>
-                        </span>
-                        <span class="setlist-meta-block">
-                          <i class="bi bi-disc" aria-hidden="true"></i>
-                          <span>Be Here Now</span>
-                        </span>
-                        <span class="setlist-meta-block">
-                          <i class="bi bi-stopwatch" aria-hidden="true"></i>
-                          <span>7:44</span>
-                        </span>
-                      </span>
-                    </li>
-
-                    <li class="setlist-item">
-                      <span class="setlist-title">STAND BY ME</span>
-                      <span class="setlist-meta-inline">
-                        <span class="setlist-meta-block">
-                          <i class="bi bi-file-music" aria-hidden="true"></i>
-                          <span>#4</span>
-                        </span>
-                        <span class="setlist-meta-block">
-                          <i class="bi bi-disc" aria-hidden="true"></i>
-                          <span>Be Here Now</span>
-                        </span>
-                        <span class="setlist-meta-block">
-                          <i class="bi bi-stopwatch" aria-hidden="true"></i>
-                          <span>5:56</span>
-                        </span>
-                      </span>
-                    </li>
-
-                    <li class="setlist-item">
-                      <span class="setlist-title">CAST NO SHADOW</span>
-                      <span class="setlist-meta-inline">
-                        <span class="setlist-meta-block">
-                          <i class="bi bi-file-music" aria-hidden="true"></i>
-                          <span>#8</span>
-                        </span>
-                        <span class="setlist-meta-block">
-                          <i class="bi bi-disc" aria-hidden="true"></i>
-                          <span
-                            >(What's the Story) Morning Glory?</span
-                          >
-                        </span>
-                        <span class="setlist-meta-block">
-                          <i class="bi bi-stopwatch" aria-hidden="true"></i>
-                          <span>4:51</span>
-                        </span>
-                      </span>
-                    </li>
-
-                    <li class="setlist-item">
-                      <span class="setlist-title">SLIDE AWAY</span>
-                      <span class="setlist-meta-inline">
-                        <span class="setlist-meta-block">
-                          <i class="bi bi-file-music" aria-hidden="true"></i>
-                          <span>#10</span>
-                        </span>
-                        <span class="setlist-meta-block">
-                          <i class="bi bi-disc" aria-hidden="true"></i>
-                          <span>Definitely Maybe</span>
-                        </span>
-                        <span class="setlist-meta-block">
-                          <i class="bi bi-stopwatch" aria-hidden="true"></i>
-                          <span>6:32</span>
-                        </span>
-                      </span>
-                    </li>
-
-                    <li class="setlist-item">
-                      <span class="setlist-title">WHATEVER</span>
-                      <span class="setlist-meta-inline">
-                        <span class="setlist-meta-block">
-                          <i class="bi bi-file-music" aria-hidden="true"></i>
-                          <span>#12</span>
-                        </span>
-                        <span class="setlist-meta-block">
-                          <i class="bi bi-disc" aria-hidden="true"></i>
-                          <span>Definitely Maybe</span>
-                        </span>
-                        <span class="setlist-meta-block">
-                          <i class="bi bi-stopwatch" aria-hidden="true"></i>
-                          <span>6:22</span>
-                        </span>
-                      </span>
-                    </li>
-
-                    <li class="setlist-item">
-                      <span class="setlist-title">LIVE FOREVER</span>
-                      <span class="setlist-meta-inline">
-                        <span class="setlist-meta-block">
-                          <i class="bi bi-file-music" aria-hidden="true"></i>
-                          <span>#3</span>
-                        </span>
-                        <span class="setlist-meta-block">
-                          <i class="bi bi-disc" aria-hidden="true"></i>
-                          <span>Definitely Maybe</span>
-                        </span>
-                        <span class="setlist-meta-block">
-                          <i class="bi bi-stopwatch" aria-hidden="true"></i>
-                          <span>4:38</span>
-                        </span>
-                      </span>
-                    </li>
-
-                    <li class="setlist-item">
-                      <span class="setlist-title">ROCK 'N' ROLL STAR</span>
-                      <span class="setlist-meta-inline">
-                        <span class="setlist-meta-block">
-                          <i class="bi bi-file-music" aria-hidden="true"></i>
-                          <span>#1</span>
-                        </span>
-                        <span class="setlist-meta-block">
-                          <i class="bi bi-disc" aria-hidden="true"></i>
-                          <span>Definitely Maybe</span>
-                        </span>
-                        <span class="setlist-meta-block">
-                          <i class="bi bi-stopwatch" aria-hidden="true"></i>
-                          <span>5:23</span>
-                        </span>
-                      </span>
-                    </li>
-                  </ol>
-
-                  <br />
-
-                  <h3 class="h5 card-title tour-item-city">Bises y Cierre</h3>
-                  <ol class="mb-0" start="21">
-                    <li class="setlist-item">
-                      <span class="setlist-title">THE MASTERPLAN</span>
-                      <span class="setlist-meta-inline">
-                        <span class="setlist-meta-block">
-                          <i class="bi bi-file-music" aria-hidden="true"></i>
-                          <span>#14</span>
-                        </span>
-                        <span class="setlist-meta-block">
-                          <i class="bi bi-disc" aria-hidden="true"></i>
-                          <span>The Masterplan</span>
-                        </span>
-                        <span class="setlist-meta-block">
-                          <i class="bi bi-stopwatch" aria-hidden="true"></i>
-                          <span>5:22</span>
-                        </span>
-                      </span>
-                    </li>
-
-                    <li class="setlist-item">
-                      <span class="setlist-title"
-                        >DON'T LOOK BACK IN ANGER</span
-                      >
-                      <span class="setlist-meta-inline">
-                        <span class="setlist-meta-block">
-                          <i class="bi bi-file-music" aria-hidden="true"></i>
-                          <span>#4</span>
-                        </span>
-                        <span class="setlist-meta-block">
-                          <i class="bi bi-disc" aria-hidden="true"></i>
-                          <span
-                            >(What's the Story) Morning Glory?</span
-                          >
-                        </span>
-                        <span class="setlist-meta-block">
-                          <i class="bi bi-stopwatch" aria-hidden="true"></i>
-                          <span>4:48</span>
-                        </span>
-                      </span>
-                    </li>
-
-                    <li class="setlist-item">
-                      <span class="setlist-title">WONDERWALL</span>
-                      <span class="setlist-meta-inline">
-                        <span class="setlist-meta-block">
-                          <i class="bi bi-file-music" aria-hidden="true"></i>
-                          <span>#3</span>
-                        </span>
-                        <span class="setlist-meta-block">
-                          <i class="bi bi-disc" aria-hidden="true"></i>
-                          <span
-                            >(What's the Story) Morning Glory?</span
-                          >
-                        </span>
-                        <span class="setlist-meta-block">
-                          <i class="bi bi-stopwatch" aria-hidden="true"></i>
-                          <span>4:18</span>
-                        </span>
-                      </span>
-                    </li>
-
-                    <li class="setlist-item">
-                      <span class="setlist-title">CHAMPAGNE SUPERNOVA</span>
-                      <span class="setlist-meta-inline">
-                        <span class="setlist-meta-block">
-                          <i class="bi bi-file-music" aria-hidden="true"></i>
-                          <span>#12</span>
-                        </span>
-                        <span class="setlist-meta-block">
-                          <i class="bi bi-disc" aria-hidden="true"></i>
-                          <span
-                            >(What's the Story) Morning Glory?</span
-                          >
-                        </span>
-                        <span class="setlist-meta-block">
-                          <i class="bi bi-stopwatch" aria-hidden="true"></i>
-                          <span>7:27</span>
-                        </span>
-                      </span>
-                    </li>
-                  </ol>
-                </div>
-              </div>
-            </article>
-          </div>
-
-          <!-- COMPOSICIÓN DEL SETLIST POR ÁLBUM -->
-          <div class="mt-5">
-            <h3 class="h3 fw-bold text-center mb-4 oasis-heading">Canciones por Álbum</h3>
-            <div
-              class="row row-cols-1 row-cols-sm-2 row-cols-md-2 row-cols-lg-5 g-3"
-            >
-              <!-- DEFINITELY MAYBE -->
-              <div class="col">
-                <div class="card h-100 border-0 bg-transparent text-center">
-                  <img
-                    src="img/portada-DefinitelyMaybe-card.jpg"
-                    class="card-img-top rounded album-cover-img"
-                    alt="Portada de Definitely Maybe"
-                  />
-                  <div class="card-body px-0">
-                    <p class="fw-bold mb-1 band-member-name">
-                      Definitely Maybe <br />(1994)
-                    </p>
-                    <div class="mt-2">
-                      <div class="tour-infografia-num">29%</div>
-                      <div class="tour-infografia-label">Canciones</div>
-                    </div>
-                  </div>
-                </div>
-              </div>
-
-              <!-- MORNING GLORY -->
-              <div class="col">
-                <div class="card h-100 border-0 bg-transparent text-center">
-                  <img
-                    src="img/portada-MorningGlory-card.jpg"
-                    class="card-img-top rounded album-cover-img"
-                    alt="Portada de (What's the Story) Morning Glory?"
-                  />
-                  <div class="card-body px-0">
-                    <p class="fw-bold mb-1 band-member-name">
-                      (What's the Story) <br />Morning Glory? (1995)
-                    </p>
-                    <div class="mt-2 album-highlight">
-                      <div class="tour-infografia-num">33%</div>
-                      <div class="tour-infografia-label">Canciones</div>
-                    </div>
-                  </div>
-                </div>
-              </div>
-
-              <!-- BE HERE NOW -->
-              <div class="col">
-                <div class="card h-100 border-0 bg-transparent text-center">
-                  <img
-                    src="img/portada-BeHereNow-card.jpg"
-                    class="card-img-top rounded album-cover-img"
-                    alt="Portada de Be Here Now"
-                  />
-                  <div class="card-body px-0">
-                    <p class="fw-bold mb-1 band-member-name">
-                      Be Here Now <br />(1997)
-                    </p>
-                    <div class="mt-2">
-                      <div class="tour-infografia-num">13%</div>
-                      <div class="tour-infografia-label">Canciones</div>
-                    </div>
-                  </div>
-                </div>
-              </div>
-
-              <!-- THE MASTERPLAN -->
-              <div class="col">
-                <div class="card h-100 border-0 bg-transparent text-center">
-                  <img
-                    src="img/portada-TheMasterplan-card.jpg"
-                    class="card-img-top rounded album-cover-img"
-                    alt="Portada de The Masterplan"
-                  />
-                  <div class="card-body px-0">
-                    <p class="fw-bold mb-1 band-member-name">
-                      The Masterplan<br />(1998)
-                    </p>
-                    <div class="mt-2">
-                      <div class="tour-infografia-num">21%</div>
-                      <div class="tour-infografia-label">Canciones</div>
-                    </div>
-                  </div>
-                </div>
-              </div>
-
-              <!-- HEATHEN CHEMISTRY -->
-              <div class="col">
-                <div class="card h-100 border-0 bg-transparent text-center">
-                  <img
-                    src="img/portada-HeathenChemistry-card.jpg"
-                    class="card-img-top rounded album-cover-img"
-                    alt="Portada de Heathen Chemistry"
-                  />
-                  <div class="card-body px-0">
-                    <p class="fw-bold mb-1 band-member-name">
-                      Heathen Chemistry <br />(2002)
-                    </p>
-                    <div class="mt-2">
-                      <div class="tour-infografia-num">4%</div>
-                      <div class="tour-infografia-label">Canciones</div>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-
-          <!-- CANCIONES POR CANTANTE -->
-          <div class="mt-5">
-  <h3 class="h3 fw-bold text-center mb-4 oasis-heading">Canciones por Cantante</h3>
-  <div class="row g-4">
-    <!-- LIAM -->
-    <div class="col-md-6">
-      <div class="card h-100 border-0 bg-transparent text-center">
-        <img
-          src="img/liam_gallagher-canciones.jpg"
-          alt="Liam Gallagher en vivo"
-          class="setlist-singer-img mb-3 w-100 rounded"
-        />
-
-        <div class="setlist-singer-icon mb-2">
-          <img src="img/icon-tambourine.png" alt="" aria-hidden="true" />
-        </div>
-
-        <h3 class="h5 mb-2">Liam Gallagher</h3>
-        <div class="mt-2">
-          <div class="tour-infografia-num">18</div>
-          <div class="tour-infografia-label">Canciones</div>
-        </div>
-      </div>
-    </div>
-
-    <!-- NOEL -->
-    <div class="col-md-6">
-      <div class="card h-100 border-0 bg-transparent text-center">
-        <img
-          src="img/noel_gallagher-canciones.jpg"
-          alt="Noel Gallagher en vivo"
-          class="setlist-singer-img mb-3 w-100 rounded"
-        />
-
-        <div class="setlist-singer-icon mb-2">
-          <img src="img/icon-electricguitar.png" alt="" aria-hidden="true" />
-        </div>
-
-        <h3 class="h5 mb-2">Noel Gallagher</h3>
-        <div class="mt-2">
-          <div class="tour-infografia-num">5</div>
-          <div class="tour-infografia-label">Canciones</div>
-        </div>
-      </div>
-    </div>
-  </div>
+<div class="container">
+<!-- CARD PRINCIPAL DEL SETLIST -->
+<div class="row g-4">
+<article class="col-12">
+<div class="card h-100">
+<div class="card-body">
+<h3 class="h5 card-title tour-item-city text-uppercase">Intro</h3>
+<ol class="mb-0">
+<li class="setlist-item">
+<span class="setlist-title text-uppercase">FUCKING IN THE BUSHES</span>
+<span class="setlist-meta-inline">
+<span class="setlist-meta-block">
+<i aria-hidden="true" class="bi bi-file-music"></i>
+<span>#1</span>
+</span>
+<span class="setlist-meta-block">
+<i aria-hidden="true" class="bi bi-disc"></i>
+<span>Standing on the Shoulder of Giants</span>
+</span>
+<span class="setlist-meta-block">
+<i aria-hidden="true" class="bi bi-stopwatch"></i>
+<span>3:19</span>
+</span>
+</span>
+</li>
+<li class="setlist-item">
+<span class="setlist-title text-uppercase">HELLO</span>
+<span class="setlist-meta-inline">
+<span class="setlist-meta-block">
+<i aria-hidden="true" class="bi bi-file-earmark-music"></i>
+<span>#1</span>
+</span>
+<span class="setlist-meta-block">
+<i aria-hidden="true" class="bi bi-disc"></i>
+<span>(What's the Story) Morning Glory?</span>
+</span>
+<span class="setlist-meta-block">
+<i aria-hidden="true" class="bi bi-stopwatch"></i>
+<span>3:22</span>
+</span>
+</span>
+</li>
+</ol>
+<br/>
+<h3 class="h5 card-title tour-item-city text-uppercase">Mid</h3>
+<ol class="mb-0" start="3">
+<li class="setlist-item">
+<span class="setlist-title text-uppercase">ACQUIESCE</span>
+<span class="setlist-meta-inline">
+<span class="setlist-meta-block">
+<i aria-hidden="true" class="bi bi-file-music"></i>
+<span>#1</span>
+</span>
+<span class="setlist-meta-block">
+<i aria-hidden="true" class="bi bi-disc"></i>
+<span>The Masterplan</span>
+</span>
+<span class="setlist-meta-block">
+<i aria-hidden="true" class="bi bi-stopwatch"></i>
+<span>4:24</span>
+</span>
+</span>
+</li>
+<li class="setlist-item">
+<span class="setlist-title text-uppercase">MORNING GLORY</span>
+<span class="setlist-meta-inline">
+<span class="setlist-meta-block">
+<i aria-hidden="true" class="bi bi-file-music"></i>
+<span>#10</span>
+</span>
+<span class="setlist-meta-block">
+<i aria-hidden="true" class="bi bi-disc"></i>
+<span>(What's the Story) Morning Glory?</span>
+</span>
+<span class="setlist-meta-block">
+<i aria-hidden="true" class="bi bi-stopwatch"></i>
+<span>5:03</span>
+</span>
+</span>
+</li>
+<li class="setlist-item">
+<span class="setlist-title text-uppercase">SOME MIGHT SAY</span>
+<span class="setlist-meta-inline">
+<span class="setlist-meta-block">
+<i aria-hidden="true" class="bi bi-file-music"></i>
+<span>#7</span>
+</span>
+<span class="setlist-meta-block">
+<i aria-hidden="true" class="bi bi-disc"></i>
+<span>(What's the Story) Morning Glory?</span>
+</span>
+<span class="setlist-meta-block">
+<i aria-hidden="true" class="bi bi-stopwatch"></i>
+<span>5:29</span>
+</span>
+</span>
+</li>
+<li class="setlist-item">
+<span class="setlist-title text-uppercase">BRING IT ON DOWN</span>
+<span class="setlist-meta-inline">
+<span class="setlist-meta-block">
+<i aria-hidden="true" class="bi bi-file-music"></i>
+<span>#7</span>
+</span>
+<span class="setlist-meta-block">
+<i aria-hidden="true" class="bi bi-disc"></i>
+<span>Definitely Maybe</span>
+</span>
+<span class="setlist-meta-block">
+<i aria-hidden="true" class="bi bi-stopwatch"></i>
+<span>4:17</span>
+</span>
+</span>
+</li>
+<li class="setlist-item">
+<span class="setlist-title text-uppercase">CIGARETTES AND ALCOHOL</span>
+<span class="setlist-meta-inline">
+<span class="setlist-meta-block">
+<i aria-hidden="true" class="bi bi-file-music"></i>
+<span>#8</span>
+</span>
+<span class="setlist-meta-block">
+<i aria-hidden="true" class="bi bi-disc"></i>
+<span>Definitely Maybe</span>
+</span>
+<span class="setlist-meta-block">
+<i aria-hidden="true" class="bi bi-stopwatch"></i>
+<span>4:50</span>
+</span>
+</span>
+</li>
+<li class="setlist-item">
+<span class="setlist-title text-uppercase">FADE AWAY</span>
+<span class="setlist-meta-inline">
+<span class="setlist-meta-block">
+<i aria-hidden="true" class="bi bi-file-music"></i>
+<span>#5</span>
+</span>
+<span class="setlist-meta-block">
+<i aria-hidden="true" class="bi bi-disc"></i>
+<span>The Masterplan</span>
+</span>
+<span class="setlist-meta-block">
+<i aria-hidden="true" class="bi bi-stopwatch"></i>
+<span>4:13</span>
+</span>
+</span>
+</li>
+<li class="setlist-item">
+<span class="setlist-title text-uppercase">SUPERSONIC</span>
+<span class="setlist-meta-inline">
+<span class="setlist-meta-block">
+<i aria-hidden="true" class="bi bi-file-music"></i>
+<span>#6</span>
+</span>
+<span class="setlist-meta-block">
+<i aria-hidden="true" class="bi bi-disc"></i>
+<span>Definitely Maybe</span>
+</span>
+<span class="setlist-meta-block">
+<i aria-hidden="true" class="bi bi-stopwatch"></i>
+<span>4:44</span>
+</span>
+</span>
+</li>
+<li class="setlist-item">
+<span class="setlist-title text-uppercase">ROLL WITH IT</span>
+<span class="setlist-meta-inline">
+<span class="setlist-meta-block">
+<i aria-hidden="true" class="bi bi-file-music"></i>
+<span>#2</span>
+</span>
+<span class="setlist-meta-block">
+<i aria-hidden="true" class="bi bi-disc"></i>
+<span>(What's the Story) Morning Glory?</span>
+</span>
+<span class="setlist-meta-block">
+<i aria-hidden="true" class="bi bi-stopwatch"></i>
+<span>3:59</span>
+</span>
+</span>
+</li>
+<li class="setlist-item">
+<span class="setlist-title text-uppercase">TALK TONIGHT</span>
+<span class="setlist-meta-inline">
+<span class="setlist-meta-block">
+<i aria-hidden="true" class="bi bi-file-music"></i>
+<span>#3</span>
+</span>
+<span class="setlist-meta-block">
+<i aria-hidden="true" class="bi bi-disc"></i>
+<span>The Masterplan</span>
+</span>
+<span class="setlist-meta-block">
+<i aria-hidden="true" class="bi bi-stopwatch"></i>
+<span>4:21</span>
+</span>
+</span>
+</li>
+<li class="setlist-item">
+<span class="setlist-title text-uppercase">HALF THE WORLD AWAY</span>
+<span class="setlist-meta-inline">
+<span class="setlist-meta-block">
+<i aria-hidden="true" class="bi bi-file-music"></i>
+<span>#10</span>
+</span>
+<span class="setlist-meta-block">
+<i aria-hidden="true" class="bi bi-disc"></i>
+<span>The Masterplan</span>
+</span>
+<span class="setlist-meta-block">
+<i aria-hidden="true" class="bi bi-stopwatch"></i>
+<span>4:21</span>
+</span>
+</span>
+</li>
+<li class="setlist-item">
+<span class="setlist-title text-uppercase">LITTLE BY LITTLE</span>
+<span class="setlist-meta-inline">
+<span class="setlist-meta-block">
+<i aria-hidden="true" class="bi bi-file-music"></i>
+<span>#6</span>
+</span>
+<span class="setlist-meta-block">
+<i aria-hidden="true" class="bi bi-disc"></i>
+<span>Heathen Chemistry</span>
+</span>
+<span class="setlist-meta-block">
+<i aria-hidden="true" class="bi bi-stopwatch"></i>
+<span>4:55</span>
+</span>
+</span>
+</li>
+<li class="setlist-item">
+<span class="setlist-title text-uppercase">D'YOU KNOW WHAT I MEAN?</span>
+<span class="setlist-meta-inline">
+<span class="setlist-meta-block">
+<i aria-hidden="true" class="bi bi-file-music"></i>
+<span>#1</span>
+</span>
+<span class="setlist-meta-block">
+<i aria-hidden="true" class="bi bi-disc"></i>
+<span>Be Here Now</span>
+</span>
+<span class="setlist-meta-block">
+<i aria-hidden="true" class="bi bi-stopwatch"></i>
+<span>7:44</span>
+</span>
+</span>
+</li>
+<li class="setlist-item">
+<span class="setlist-title text-uppercase">STAND BY ME</span>
+<span class="setlist-meta-inline">
+<span class="setlist-meta-block">
+<i aria-hidden="true" class="bi bi-file-music"></i>
+<span>#4</span>
+</span>
+<span class="setlist-meta-block">
+<i aria-hidden="true" class="bi bi-disc"></i>
+<span>Be Here Now</span>
+</span>
+<span class="setlist-meta-block">
+<i aria-hidden="true" class="bi bi-stopwatch"></i>
+<span>5:56</span>
+</span>
+</span>
+</li>
+<li class="setlist-item">
+<span class="setlist-title text-uppercase">CAST NO SHADOW</span>
+<span class="setlist-meta-inline">
+<span class="setlist-meta-block">
+<i aria-hidden="true" class="bi bi-file-music"></i>
+<span>#8</span>
+</span>
+<span class="setlist-meta-block">
+<i aria-hidden="true" class="bi bi-disc"></i>
+<span>(What's the Story) Morning Glory?</span>
+</span>
+<span class="setlist-meta-block">
+<i aria-hidden="true" class="bi bi-stopwatch"></i>
+<span>4:51</span>
+</span>
+</span>
+</li>
+<li class="setlist-item">
+<span class="setlist-title text-uppercase">SLIDE AWAY</span>
+<span class="setlist-meta-inline">
+<span class="setlist-meta-block">
+<i aria-hidden="true" class="bi bi-file-music"></i>
+<span>#10</span>
+</span>
+<span class="setlist-meta-block">
+<i aria-hidden="true" class="bi bi-disc"></i>
+<span>Definitely Maybe</span>
+</span>
+<span class="setlist-meta-block">
+<i aria-hidden="true" class="bi bi-stopwatch"></i>
+<span>6:32</span>
+</span>
+</span>
+</li>
+<li class="setlist-item">
+<span class="setlist-title text-uppercase">WHATEVER</span>
+<span class="setlist-meta-inline">
+<span class="setlist-meta-block">
+<i aria-hidden="true" class="bi bi-file-music"></i>
+<span>#12</span>
+</span>
+<span class="setlist-meta-block">
+<i aria-hidden="true" class="bi bi-disc"></i>
+<span>Definitely Maybe</span>
+</span>
+<span class="setlist-meta-block">
+<i aria-hidden="true" class="bi bi-stopwatch"></i>
+<span>6:22</span>
+</span>
+</span>
+</li>
+<li class="setlist-item">
+<span class="setlist-title text-uppercase">LIVE FOREVER</span>
+<span class="setlist-meta-inline">
+<span class="setlist-meta-block">
+<i aria-hidden="true" class="bi bi-file-music"></i>
+<span>#3</span>
+</span>
+<span class="setlist-meta-block">
+<i aria-hidden="true" class="bi bi-disc"></i>
+<span>Definitely Maybe</span>
+</span>
+<span class="setlist-meta-block">
+<i aria-hidden="true" class="bi bi-stopwatch"></i>
+<span>4:38</span>
+</span>
+</span>
+</li>
+<li class="setlist-item">
+<span class="setlist-title text-uppercase">ROCK 'N' ROLL STAR</span>
+<span class="setlist-meta-inline">
+<span class="setlist-meta-block">
+<i aria-hidden="true" class="bi bi-file-music"></i>
+<span>#1</span>
+</span>
+<span class="setlist-meta-block">
+<i aria-hidden="true" class="bi bi-disc"></i>
+<span>Definitely Maybe</span>
+</span>
+<span class="setlist-meta-block">
+<i aria-hidden="true" class="bi bi-stopwatch"></i>
+<span>5:23</span>
+</span>
+</span>
+</li>
+</ol>
+<br/>
+<h3 class="h5 card-title tour-item-city text-uppercase">Bises y Cierre</h3>
+<ol class="mb-0" start="21">
+<li class="setlist-item">
+<span class="setlist-title text-uppercase">THE MASTERPLAN</span>
+<span class="setlist-meta-inline">
+<span class="setlist-meta-block">
+<i aria-hidden="true" class="bi bi-file-music"></i>
+<span>#14</span>
+</span>
+<span class="setlist-meta-block">
+<i aria-hidden="true" class="bi bi-disc"></i>
+<span>The Masterplan</span>
+</span>
+<span class="setlist-meta-block">
+<i aria-hidden="true" class="bi bi-stopwatch"></i>
+<span>5:22</span>
+</span>
+</span>
+</li>
+<li class="setlist-item">
+<span class="setlist-title text-uppercase">DON'T LOOK BACK IN ANGER</span>
+<span class="setlist-meta-inline">
+<span class="setlist-meta-block">
+<i aria-hidden="true" class="bi bi-file-music"></i>
+<span>#4</span>
+</span>
+<span class="setlist-meta-block">
+<i aria-hidden="true" class="bi bi-disc"></i>
+<span>(What's the Story) Morning Glory?</span>
+</span>
+<span class="setlist-meta-block">
+<i aria-hidden="true" class="bi bi-stopwatch"></i>
+<span>4:48</span>
+</span>
+</span>
+</li>
+<li class="setlist-item">
+<span class="setlist-title text-uppercase">WONDERWALL</span>
+<span class="setlist-meta-inline">
+<span class="setlist-meta-block">
+<i aria-hidden="true" class="bi bi-file-music"></i>
+<span>#3</span>
+</span>
+<span class="setlist-meta-block">
+<i aria-hidden="true" class="bi bi-disc"></i>
+<span>(What's the Story) Morning Glory?</span>
+</span>
+<span class="setlist-meta-block">
+<i aria-hidden="true" class="bi bi-stopwatch"></i>
+<span>4:18</span>
+</span>
+</span>
+</li>
+<li class="setlist-item">
+<span class="setlist-title text-uppercase">CHAMPAGNE SUPERNOVA</span>
+<span class="setlist-meta-inline">
+<span class="setlist-meta-block">
+<i aria-hidden="true" class="bi bi-file-music"></i>
+<span>#12</span>
+</span>
+<span class="setlist-meta-block">
+<i aria-hidden="true" class="bi bi-disc"></i>
+<span>(What's the Story) Morning Glory?</span>
+</span>
+<span class="setlist-meta-block">
+<i aria-hidden="true" class="bi bi-stopwatch"></i>
+<span>7:27</span>
+</span>
+</span>
+</li>
+</ol>
 </div>
-
-          <!-- fin fila cantantes -->
-        </div>
-      </section>
-
-      <!-- SECCIÓN EXPERIENCIAS -->
-      <section id="experiencias" class="pt-0 pb-5">
-        <!-- HERO FULL WIDTH SOLO IMAGEN -->
-        <div class="container-fluid p-0">
-          <img
-            src="img/oasis-hero-banner-experiencia.png"
-            alt="Contanos tu experiencia en el Tour Oasis Live '25"
-            class="img-fluid w-100"
-          />
-        </div>
-
-        <!-- TÍTULO -->
-         <div class="container pt-3 pb-5 text-center">
-  <p class="section-title mb-1">Completá el formulario y contános Tu Experiencia</p>
-  <h2 class="h2 fw-bold text-center mb-2 oasis-heading">Vivencias de la Gira</h2>
-  <p class="lead mt-1">En un clima de cancha, lleno de generaciones de familias, amigos y fans que viajaron desde lejos para cumplir el sueño de ver a su banda favorita.
+</div>
+</article>
+</div>
+<!-- COMPOSICIÓN DEL SETLIST POR ÁLBUM -->
+<div class="mt-5">
+<h3 class="h3 fw-bold text-center mb-4 oasis-heading text-uppercase">Canciones por Álbum</h3>
+<div class="row row-cols-1 row-cols-sm-2 row-cols-md-2 row-cols-lg-5 g-3">
+<!-- DEFINITELY MAYBE -->
+<div class="col">
+<div class="card h-100 border-0 bg-transparent text-center">
+<img alt="Portada de Definitely Maybe" class="card-img-top rounded album-cover-img" src="img/portada-DefinitelyMaybe-card.jpg"/>
+<div class="card-body px-0">
+<p class="fw-bold mb-1 band-member-name">
+                      Definitely Maybe <br/>(1994)
+                    </p>
+<div class="mt-2">
+<div class="tour-infografia-num">29%</div>
+<div class="tour-infografia-label text-uppercase">Canciones</div>
+</div>
+</div>
+</div>
+</div>
+<!-- MORNING GLORY -->
+<div class="col">
+<div class="card h-100 border-0 bg-transparent text-center">
+<img alt="Portada de (What's the Story) Morning Glory?" class="card-img-top rounded album-cover-img" src="img/portada-MorningGlory-card.jpg"/>
+<div class="card-body px-0">
+<p class="fw-bold mb-1 band-member-name">
+                      (What's the Story) <br/>Morning Glory? (1995)
+                    </p>
+<div class="mt-2 album-highlight">
+<div class="tour-infografia-num">33%</div>
+<div class="tour-infografia-label text-uppercase">Canciones</div>
+</div>
+</div>
+</div>
+</div>
+<!-- BE HERE NOW -->
+<div class="col">
+<div class="card h-100 border-0 bg-transparent text-center">
+<img alt="Portada de Be Here Now" class="card-img-top rounded album-cover-img" src="img/portada-BeHereNow-card.jpg"/>
+<div class="card-body px-0">
+<p class="fw-bold mb-1 band-member-name">
+                      Be Here Now <br/>(1997)
+                    </p>
+<div class="mt-2">
+<div class="tour-infografia-num">13%</div>
+<div class="tour-infografia-label text-uppercase">Canciones</div>
+</div>
+</div>
+</div>
+</div>
+<!-- THE MASTERPLAN -->
+<div class="col">
+<div class="card h-100 border-0 bg-transparent text-center">
+<img alt="Portada de The Masterplan" class="card-img-top rounded album-cover-img" src="img/portada-TheMasterplan-card.jpg"/>
+<div class="card-body px-0">
+<p class="fw-bold mb-1 band-member-name">
+                      The Masterplan<br/>(1998)
+                    </p>
+<div class="mt-2">
+<div class="tour-infografia-num">21%</div>
+<div class="tour-infografia-label text-uppercase">Canciones</div>
+</div>
+</div>
+</div>
+</div>
+<!-- HEATHEN CHEMISTRY -->
+<div class="col">
+<div class="card h-100 border-0 bg-transparent text-center">
+<img alt="Portada de Heathen Chemistry" class="card-img-top rounded album-cover-img" src="img/portada-HeathenChemistry-card.jpg"/>
+<div class="card-body px-0">
+<p class="fw-bold mb-1 band-member-name">
+                      Heathen Chemistry <br/>(2002)
+                    </p>
+<div class="mt-2">
+<div class="tour-infografia-num">4%</div>
+<div class="tour-infografia-label text-uppercase">Canciones</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+<!-- CANCIONES POR CANTANTE -->
+<div class="mt-5">
+<h3 class="h3 fw-bold text-center mb-4 oasis-heading text-uppercase">Canciones por Cantante</h3>
+<div class="row g-4">
+<!-- LIAM -->
+<div class="col-md-6">
+<div class="card h-100 border-0 bg-transparent text-center">
+<img alt="Liam Gallagher en vivo" class="setlist-singer-img mb-3 w-100 rounded" src="img/liam_gallagher-canciones.jpg"/>
+<div class="setlist-singer-icon mb-2">
+<img alt="" aria-hidden="true" src="img/icon-tambourine.png"/>
+</div>
+<h3 class="h5 mb-2 text-uppercase">Liam Gallagher</h3>
+<div class="mt-2">
+<div class="tour-infografia-num">18</div>
+<div class="tour-infografia-label text-uppercase">Canciones</div>
+</div>
+</div>
+</div>
+<!-- NOEL -->
+<div class="col-md-6">
+<div class="card h-100 border-0 bg-transparent text-center">
+<img alt="Noel Gallagher en vivo" class="setlist-singer-img mb-3 w-100 rounded" src="img/noel_gallagher-canciones.jpg"/>
+<div class="setlist-singer-icon mb-2">
+<img alt="" aria-hidden="true" src="img/icon-electricguitar.png"/>
+</div>
+<h3 class="h5 mb-2 text-uppercase">Noel Gallagher</h3>
+<div class="mt-2">
+<div class="tour-infografia-num">5</div>
+<div class="tour-infografia-label text-uppercase">Canciones</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+<!-- fin fila cantantes -->
+</div>
+</section>
+<!-- SECCIÓN EXPERIENCIAS -->
+<section class="pt-0 pb-5" id="experiencias">
+<!-- HERO FULL WIDTH SOLO IMAGEN -->
+<div class="container-fluid p-0">
+<img alt="Contanos tu experiencia en el Tour Oasis Live '25" class="img-fluid w-100" src="img/oasis-hero-banner-experiencia.png"/>
+</div>
+<!-- TÍTULO -->
+<div class="container pt-3 pb-5 text-center">
+<p class="section-title mb-1 text-uppercase">Completá el formulario y contános Tu Experiencia</p>
+<h2 class="h2 fw-bold text-center mb-2 oasis-heading text-uppercase">Vivencias de la Gira</h2>
+<p class="lead mt-1">En un clima de cancha, lleno de generaciones de familias, amigos y fans que viajaron desde lejos para cumplir el sueño de ver a su banda favorita.
   </p>
 </div>
-     <!-- FORMULARIO EXPERIENCIAS -->
+<!-- FORMULARIO EXPERIENCIAS -->
 <div class="container pb-5">
-  <div class="row justify-content-center">
-    <div class="col-12 col-lg-10 col-xl-9">
-      <div class="card experiencias-card shadow-sm">
-        <div class="card-body">
-
-          <!-- Encabezado centrado -->
-          <div class="text-center mb-4">
-            <div class="oasis-exp-pill mx-auto mb-2">
+<div class="row justify-content-center">
+<div class="col-12 col-lg-10 col-xl-9">
+<div class="card experiencias-card shadow-sm">
+<div class="card-body">
+<!-- Encabezado centrado -->
+<div class="text-center mb-4">
+<div class="oasis-exp-pill mx-auto mb-2">
               Exclusivo para Fans Latam
             </div>
-            <p class="lead oasis-exp-text mx-auto mb-3">
+<p class="lead oasis-exp-text mx-auto mb-3">
               Tu Oasis Live '25 en primera persona.
             </p>
-          </div>
-
-          <!-- Barra de progreso -->
-          <div class="mb-4">
-            <div class="progress progress-oasis">
-              <div
-                id="expProgressBar"
-                class="progress-bar bg-dark"
-                role="progressbar"
-                aria-valuenow="0"
-                aria-valuemin="0"
-                aria-valuemax="100"
-                style="width: 0%;"
-              >
+</div>
+<!-- Barra de progreso -->
+<div class="mb-4">
+<div class="progress progress-oasis">
+<div aria-valuemax="100" aria-valuemin="0" aria-valuenow="0" class="progress-bar bg-dark" id="expProgressBar" role="progressbar" style="width: 0%;">
                 0%
               </div>
-            </div>
-          </div>
-
-          <!-- Alertas -->
-          <div id="expAlertSuccess" class="alert alert-success alert-dismissible fade d-none" role="alert">
-            <strong>¡Gracias!</strong> Tu experiencia se envió correctamente.
-            <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Cerrar"></button>
-          </div>
-          <div id="expAlertError" class="alert alert-danger alert-dismissible fade d-none" role="alert">
-            <strong>Ups…</strong> Revisá los campos obligatorios marcados en rojo.
-            <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Cerrar"></button>
-          </div>
-
-          <form
-            id="experienciaForm"
-            class="row g-4 needs-validation"
-            novalidate
-            action="https://formsubmit.co/froilamaz@hotmail.com"
-            method="POST"
-          >
-            <input type="hidden" name="_subject" value="Nueva experiencia Oasis Live '25" />
-            <input type="hidden" name="_template" value="table" />
-
-            <!-- FILA 1: Nombre, Apellido, Edad -->
-            <div class="col-12 col-sm-6 col-lg-4">
-              <label for="expNombre" class="form-label form-oasis-label">
+</div>
+</div>
+<!-- Alertas -->
+<div class="alert alert-success alert-dismissible fade d-none" id="expAlertSuccess" role="alert">
+<strong>¡Gracias!</strong> Tu experiencia se envió correctamente.
+            <button aria-label="Cerrar" class="btn-close" data-bs-dismiss="alert" type="button"></button>
+</div>
+<div class="alert alert-danger alert-dismissible fade d-none" id="expAlertError" role="alert">
+<strong>Ups…</strong> Revisá los campos obligatorios marcados en rojo.
+            <button aria-label="Cerrar" class="btn-close" data-bs-dismiss="alert" type="button"></button>
+</div>
+<form action="https://formsubmit.co/froilamaz@hotmail.com" class="row g-4 needs-validation" id="experienciaForm" method="POST" novalidate="">
+<input name="_subject" type="hidden" value="Nueva experiencia Oasis Live '25"/>
+<input name="_template" type="hidden" value="table"/>
+<!-- FILA 1: Nombre, Apellido, Edad -->
+<div class="col-12 col-sm-6 col-lg-4">
+<label class="form-label form-oasis-label text-uppercase" for="expNombre">
                 Nombre(s) *
               </label>
-              <input
-                type="text"
-                class="form-control"
-                id="expNombre"
-                name="nombre"
-                required
-              />
-              <div class="invalid-feedback">
+<input class="form-control" id="expNombre" name="nombre" required="" type="text"/>
+<div class="invalid-feedback">
                 Por favor, escribí tu nombre.
               </div>
-            </div>
-
-            <div class="col-12 col-sm-6 col-lg-4">
-              <label for="expApellido" class="form-label form-oasis-label">
+</div>
+<div class="col-12 col-sm-6 col-lg-4">
+<label class="form-label form-oasis-label text-uppercase" for="expApellido">
                 Apellido(s) *
               </label>
-              <input
-                type="text"
-                class="form-control"
-                id="expApellido"
-                name="apellido"
-                required
-              />
-              <div class="invalid-feedback">
+<input class="form-control" id="expApellido" name="apellido" required="" type="text"/>
+<div class="invalid-feedback">
                 Por favor, escribí tu apellido.
               </div>
-            </div>
-
-            <div class="col-12 col-sm-6 col-lg-4">
-              <label for="expEdad" class="form-label form-oasis-label">
+</div>
+<div class="col-12 col-sm-6 col-lg-4">
+<label class="form-label form-oasis-label text-uppercase" for="expEdad">
                 Edad
-                <i
-                  class="bi bi-info-circle ms-1 text-muted"
-                  data-bs-toggle="tooltip"
-                  title="Solo para estadísticas, no se mostrará públicamente."
-                ></i>
-              </label>
-              <input
-                type="number"
-                class="form-control"
-                id="expEdad"
-                name="edad"
-                min="10"
-                max="120"
-                placeholder="Ej: 32"
-              />
-              <div class="invalid-feedback">
+                <i class="bi bi-info-circle ms-1 text-muted" data-bs-toggle="tooltip" title="Solo para estadísticas, no se mostrará públicamente."></i>
+</label>
+<input class="form-control" id="expEdad" max="120" min="10" name="edad" placeholder="Ej: 32" type="number"/>
+<div class="invalid-feedback">
                 Ingresá una edad válida.
               </div>
-            </div>
-
-            <!-- FILA 2: Mail, Fecha, Canción favorita (dropdowns custom) -->
-            <div class="col-12 col-sm-6 col-lg-4">
-              <label for="expMail" class="form-label form-oasis-label">
+</div>
+<!-- FILA 2: Mail, Fecha, Canción favorita (dropdowns custom) -->
+<div class="col-12 col-sm-6 col-lg-4">
+<label class="form-label form-oasis-label text-uppercase" for="expMail">
                 Mail *
-                <i
-                  class="bi bi-question-circle-fill ms-1 text-muted"
-                  data-bs-toggle="tooltip"
-                  title="Solo lo usaremos para contactarte si es necesario."
-                ></i>
-              </label>
-              <input
-                type="email"
-                class="form-control"
-                id="expMail"
-                name="mail"
-                required
-              />
-              <div class="invalid-feedback">
+                <i class="bi bi-question-circle-fill ms-1 text-muted" data-bs-toggle="tooltip" title="Solo lo usaremos para contactarte si es necesario."></i>
+</label>
+<input class="form-control" id="expMail" name="mail" required="" type="email"/>
+<div class="invalid-feedback">
                 Ingresá un correo electrónico válido.
               </div>
-            </div>
-
-            <!-- Dropdown FECHA (custom) -->
-            <div class="col-12 col-sm-6 col-lg-4">
-              <label class="form-label form-oasis-label">
+</div>
+<!-- Dropdown FECHA (custom) -->
+<div class="col-12 col-sm-6 col-lg-4">
+<label class="form-label form-oasis-label text-uppercase">
                 Fecha que concurriste *
               </label>
-
-              <div class="dropdown dropdown-select">
-                <button
-                  class="btn w-100 text-start border d-flex justify-content-between align-items-center"
-                  type="button"
-                  id="expFechaBtn"
-                  data-bs-toggle="dropdown"
-                  aria-expanded="false"
-                >
-                  <span id="expFechaBtnText" class="text-muted">
+<div class="dropdown dropdown-select">
+<button aria-expanded="false" class="btn w-100 text-start border d-flex justify-content-between align-items-center" data-bs-toggle="dropdown" id="expFechaBtn" type="button">
+<span class="text-muted" id="expFechaBtnText">
                     Elegí a que fecha fuiste
                   </span>
-                  <i class="bi bi-chevron-down"></i>
-                </button>
-                <ul class="dropdown-menu w-100" aria-labelledby="expFechaBtn">
-                  <li><h6 class="dropdown-header">México</h6></li>
-                  <li><button class="dropdown-item" type="button" data-role="fecha-item" data-value="2025-09-12-mexico">Ciudad de México · 12/09/2025</button></li>
-                  <li><button class="dropdown-item" type="button" data-role="fecha-item" data-value="2025-09-13-mexico">Ciudad de México · 13/09/2025</button></li>
-
-                  <li><hr class="dropdown-divider"></li>
-                  <li><h6 class="dropdown-header">Argentina</h6></li>
-                  <li><button class="dropdown-item" type="button" data-role="fecha-item" data-value="2025-11-15-bsas">Buenos Aires · 15/11/2025</button></li>
-                  <li><button class="dropdown-item" type="button" data-role="fecha-item" data-value="2025-11-16-bsas">Buenos Aires · 16/11/2025</button></li>
-
-                  <li><hr class="dropdown-divider"></li>
-                  <li><h6 class="dropdown-header">Chile</h6></li>
-                  <li><button class="dropdown-item" type="button" data-role="fecha-item" data-value="2025-11-19-scl">Santiago de Chile · 19/11/2025</button></li>
-
-                  <li><hr class="dropdown-divider"></li>
-                  <li><h6 class="dropdown-header">Brasil</h6></li>
-                  <li><button class="dropdown-item" type="button" data-role="fecha-item" data-value="2025-11-22-sp">San Pablo · 22/11/2025</button></li>
-                  <li><button class="dropdown-item" type="button" data-role="fecha-item" data-value="2025-11-23-sp">San Pablo · 23/11/2025</button></li>
-
-                  <li><hr class="dropdown-divider"></li>
-                  <li>
-                    <button class="dropdown-item" type="button" data-role="fecha-item" data-value="other">
+<i class="bi bi-chevron-down"></i>
+</button>
+<ul aria-labelledby="expFechaBtn" class="dropdown-menu w-100">
+<li><h6 class="dropdown-header">México</h6></li>
+<li><button class="dropdown-item" data-role="fecha-item" data-value="2025-09-12-mexico" type="button">Ciudad de México · 12/09/2025</button></li>
+<li><button class="dropdown-item" data-role="fecha-item" data-value="2025-09-13-mexico" type="button">Ciudad de México · 13/09/2025</button></li>
+<li><hr class="dropdown-divider"/></li>
+<li><h6 class="dropdown-header">Argentina</h6></li>
+<li><button class="dropdown-item" data-role="fecha-item" data-value="2025-11-15-bsas" type="button">Buenos Aires · 15/11/2025</button></li>
+<li><button class="dropdown-item" data-role="fecha-item" data-value="2025-11-16-bsas" type="button">Buenos Aires · 16/11/2025</button></li>
+<li><hr class="dropdown-divider"/></li>
+<li><h6 class="dropdown-header">Chile</h6></li>
+<li><button class="dropdown-item" data-role="fecha-item" data-value="2025-11-19-scl" type="button">Santiago de Chile · 19/11/2025</button></li>
+<li><hr class="dropdown-divider"/></li>
+<li><h6 class="dropdown-header">Brasil</h6></li>
+<li><button class="dropdown-item" data-role="fecha-item" data-value="2025-11-22-sp" type="button">San Pablo · 22/11/2025</button></li>
+<li><button class="dropdown-item" data-role="fecha-item" data-value="2025-11-23-sp" type="button">San Pablo · 23/11/2025</button></li>
+<li><hr class="dropdown-divider"/></li>
+<li>
+<button class="dropdown-item" data-role="fecha-item" data-value="other" type="button">
                       Otra fecha de Live '25
                     </button>
-                  </li>
-                </ul>
-              </div>
-
-              <!-- input oculto que usamos para validación y envío -->
-              <input
-                type="text"
-                id="expFecha"
-                name="fecha_show"
-                class="d-none"
-                required
-              />
-              <div class="invalid-feedback">
+</li>
+</ul>
+</div>
+<!-- input oculto que usamos para validación y envío -->
+<input class="d-none" id="expFecha" name="fecha_show" required="" type="text"/>
+<div class="invalid-feedback">
                 Seleccioná la fecha del show.
               </div>
-
-              <!-- Campo extra si eligen "otra fecha" -->
-              <input
-                type="text"
-                class="form-control mt-2 d-none"
-                id="expOtraFecha"
-                name="otra_fecha"
-                placeholder="Ej: Londres · 25/07/2025"
-              />
-              <div class="invalid-feedback" id="expOtraFechaFeedback">
+<!-- Campo extra si eligen "otra fecha" -->
+<input class="form-control mt-2 d-none" id="expOtraFecha" name="otra_fecha" placeholder="Ej: Londres · 25/07/2025" type="text"/>
+<div class="invalid-feedback" id="expOtraFechaFeedback">
                 Contanos en qué fecha y ciudad fuiste.
               </div>
-            </div>
-
-            <!-- Dropdown CANCIÓN FAVORITA (custom) -->
-            <div class="col-12 col-sm-6 col-lg-4">
-              <label class="form-label form-oasis-label">
+</div>
+<!-- Dropdown CANCIÓN FAVORITA (custom) -->
+<div class="col-12 col-sm-6 col-lg-4">
+<label class="form-label form-oasis-label text-uppercase">
                 Canción favorita en vivo *
               </label>
-
-              <div class="dropdown dropdown-select">
-                <button
-                  class="btn w-100 text-start border d-flex justify-content-between align-items-center"
-                  type="button"
-                  id="expCancionFavBtn"
-                  data-bs-toggle="dropdown"
-                  aria-expanded="false"
-                >
-                  <span id="expCancionFavBtnText" class="text-muted">
+<div class="dropdown dropdown-select">
+<button aria-expanded="false" class="btn w-100 text-start border d-flex justify-content-between align-items-center" data-bs-toggle="dropdown" id="expCancionFavBtn" type="button">
+<span class="text-muted" id="expCancionFavBtnText">
                     Elegí una canción
                   </span>
-                  <i class="bi bi-chevron-down"></i>
-                </button>
-                <ul class="dropdown-menu w-100" aria-labelledby="expCancionFavBtn">
-                  <!-- 24 canciones del setlist -->
-                  <li><button class="dropdown-item" type="button" data-role="fav-item" data-value="Fucking in the bushes">Fucking in the bushes</button></li>
-                  <li><button class="dropdown-item" type="button" data-role="fav-item" data-value="Hello">Hello</button></li>
-                  <li><button class="dropdown-item" type="button" data-role="fav-item" data-value="Acquiesce">Acquiesce</button></li>
-                  <li><button class="dropdown-item" type="button" data-role="fav-item" data-value="Morning Glory">Morning glory</button></li>
-                  <li><button class="dropdown-item" type="button" data-role="fav-item" data-value="Some might say">Some might say</button></li>
-                  <li><button class="dropdown-item" type="button" data-role="fav-item" data-value="Bring it on down">Bring it on down</button></li>
-                  <li><button class="dropdown-item" type="button" data-role="fav-item" data-value="Cigarettes & Alcohol">Cigarettes & Alcohol</button></li>
-                  <li><button class="dropdown-item" type="button" data-role="fav-item" data-value="Fade away">Fade away</button></li>
-                  <li><button class="dropdown-item" type="button" data-role="fav-item" data-value="Supersonic">Supersonic</button></li>
-                  <li><button class="dropdown-item" type="button" data-role="fav-item" data-value="Roll with it">Roll with it</button></li>
-                  <li><button class="dropdown-item" type="button" data-role="fav-item" data-value="Talk Tonight">Talk Tonight</button></li>
-                  <li><button class="dropdown-item" type="button" data-role="fav-item" data-value="Half the world away">Half the world away</button></li>
-                  <li><button class="dropdown-item" type="button" data-role="fav-item" data-value="Little by little">Little by little</button></li>
-                  <li><button class="dropdown-item" type="button" data-role="fav-item" data-value="D'you know what I mean?">D'you know what I mean?</button></li>
-                  <li><button class="dropdown-item" type="button" data-role="fav-item" data-value="Stand by me">Stand by me</button></li>
-                  <li><button class="dropdown-item" type="button" data-role="fav-item" data-value="Cast no shadow">Cast no shadow</button></li>
-                  <li><button class="dropdown-item" type="button" data-role="fav-item" data-value="Slide Away">Slide Away</button></li>
-                  <li><button class="dropdown-item" type="button" data-role="fav-item" data-value="Whatever">Whatever</button></li>
-                  <li><button class="dropdown-item" type="button" data-role="fav-item" data-value="Live forever">Live forever</button></li>
-                  <li><button class="dropdown-item" type="button" data-role="fav-item" data-value="Rock 'n' roll star">Rock 'n' roll star</button></li>
-                  <li><button class="dropdown-item" type="button" data-role="fav-item" data-value="The masterplan">The masterplan</button></li>
-                  <li><button class="dropdown-item" type="button" data-role="fav-item" data-value="Don't look back in anger">Don't look back in anger</button></li>
-                  <li><button class="dropdown-item" type="button" data-role="fav-item" data-value="Wonderwall">Wonderwall</button></li>
-                  <li><button class="dropdown-item" type="button" data-role="fav-item" data-value="Champagne Supernova">Champagne Supernova</button></li>
-                </ul>
-              </div>
-
-              <input
-                type="text"
-                id="expCancionFavorita"
-                name="cancion_favorita_en_vivo"
-                class="d-none"
-                required
-              />
-              <div class="invalid-feedback">
+<i class="bi bi-chevron-down"></i>
+</button>
+<ul aria-labelledby="expCancionFavBtn" class="dropdown-menu w-100">
+<!-- 24 canciones del setlist -->
+<li><button class="dropdown-item" data-role="fav-item" data-value="Fucking in the bushes" type="button">Fucking in the bushes</button></li>
+<li><button class="dropdown-item" data-role="fav-item" data-value="Hello" type="button">Hello</button></li>
+<li><button class="dropdown-item" data-role="fav-item" data-value="Acquiesce" type="button">Acquiesce</button></li>
+<li><button class="dropdown-item" data-role="fav-item" data-value="Morning Glory" type="button">Morning glory</button></li>
+<li><button class="dropdown-item" data-role="fav-item" data-value="Some might say" type="button">Some might say</button></li>
+<li><button class="dropdown-item" data-role="fav-item" data-value="Bring it on down" type="button">Bring it on down</button></li>
+<li><button class="dropdown-item" data-role="fav-item" data-value="Cigarettes &amp; Alcohol" type="button">Cigarettes &amp; Alcohol</button></li>
+<li><button class="dropdown-item" data-role="fav-item" data-value="Fade away" type="button">Fade away</button></li>
+<li><button class="dropdown-item" data-role="fav-item" data-value="Supersonic" type="button">Supersonic</button></li>
+<li><button class="dropdown-item" data-role="fav-item" data-value="Roll with it" type="button">Roll with it</button></li>
+<li><button class="dropdown-item" data-role="fav-item" data-value="Talk Tonight" type="button">Talk Tonight</button></li>
+<li><button class="dropdown-item" data-role="fav-item" data-value="Half the world away" type="button">Half the world away</button></li>
+<li><button class="dropdown-item" data-role="fav-item" data-value="Little by little" type="button">Little by little</button></li>
+<li><button class="dropdown-item" data-role="fav-item" data-value="D'you know what I mean?" type="button">D'you know what I mean?</button></li>
+<li><button class="dropdown-item" data-role="fav-item" data-value="Stand by me" type="button">Stand by me</button></li>
+<li><button class="dropdown-item" data-role="fav-item" data-value="Cast no shadow" type="button">Cast no shadow</button></li>
+<li><button class="dropdown-item" data-role="fav-item" data-value="Slide Away" type="button">Slide Away</button></li>
+<li><button class="dropdown-item" data-role="fav-item" data-value="Whatever" type="button">Whatever</button></li>
+<li><button class="dropdown-item" data-role="fav-item" data-value="Live forever" type="button">Live forever</button></li>
+<li><button class="dropdown-item" data-role="fav-item" data-value="Rock 'n' roll star" type="button">Rock 'n' roll star</button></li>
+<li><button class="dropdown-item" data-role="fav-item" data-value="The masterplan" type="button">The masterplan</button></li>
+<li><button class="dropdown-item" data-role="fav-item" data-value="Don't look back in anger" type="button">Don't look back in anger</button></li>
+<li><button class="dropdown-item" data-role="fav-item" data-value="Wonderwall" type="button">Wonderwall</button></li>
+<li><button class="dropdown-item" data-role="fav-item" data-value="Champagne Supernova" type="button">Champagne Supernova</button></li>
+</ul>
+</div>
+<input class="d-none" id="expCancionFavorita" name="cancion_favorita_en_vivo" required="" type="text"/>
+<div class="invalid-feedback">
                 Elegí tu momento favorito del show.
               </div>
-            </div>
-
-            <!-- FILA 4: Tu ubicación -->
-            <!-- Dropdown UBICACIÓN EN ESTADIO (custom) -->
-            <div class="col-12">
-              <label class="form-label form-oasis-label">
+</div>
+<!-- FILA 4: Tu ubicación -->
+<!-- Dropdown UBICACIÓN EN ESTADIO (custom) -->
+<div class="col-12">
+<label class="form-label form-oasis-label text-uppercase">
                 Tu ubicación en el Estadio *
               </label>
-
-              <div class="dropdown dropdown-select">
-                <button
-                  class="btn w-100 text-start border d-flex justify-content-between align-items-center"
-                  type="button"
-                  id="expUbicacionBtn"
-                  data-bs-toggle="dropdown"
-                  aria-expanded="false"
-                >
-                  <span id="expUbicacionBtnText" class="text-muted">
+<div class="dropdown dropdown-select">
+<button aria-expanded="false" class="btn w-100 text-start border d-flex justify-content-between align-items-center" data-bs-toggle="dropdown" id="expUbicacionBtn" type="button">
+<span class="text-muted" id="expUbicacionBtnText">
                     Elegí tu ubicación
                   </span>
-                  <i class="bi bi-chevron-down"></i>
-                </button>
-
-                <ul class="dropdown-menu w-100" aria-labelledby="expUbicacionBtn">
-                  <li>
-                    <button class="dropdown-item" type="button" data-role="ubicacion-item" data-value="Campo 1">
+<i class="bi bi-chevron-down"></i>
+</button>
+<ul aria-labelledby="expUbicacionBtn" class="dropdown-menu w-100">
+<li>
+<button class="dropdown-item" data-role="ubicacion-item" data-value="Campo 1" type="button">
                       Campo 1
                     </button>
-                  </li>
-                  <li>
-                    <button class="dropdown-item" type="button" data-role="ubicacion-item" data-value="Campo 2">
+</li>
+<li>
+<button class="dropdown-item" data-role="ubicacion-item" data-value="Campo 2" type="button">
                       Campo 2
                     </button>
-                  </li>
-                  <li>
-                    <button class="dropdown-item" type="button" data-role="ubicacion-item" data-value="Platea alta">
+</li>
+<li>
+<button class="dropdown-item" data-role="ubicacion-item" data-value="Platea alta" type="button">
                       Platea alta
                     </button>
-                  </li>
-                  <li>
-                    <button class="dropdown-item" type="button" data-role="ubicacion-item" data-value="Platea media preferencial">
+</li>
+<li>
+<button class="dropdown-item" data-role="ubicacion-item" data-value="Platea media preferencial" type="button">
                       Platea media preferencial
                     </button>
-                  </li>
-                  <li>
-                    <button class="dropdown-item" type="button" data-role="ubicacion-item" data-value="Platea baja preferencial">
+</li>
+<li>
+<button class="dropdown-item" data-role="ubicacion-item" data-value="Platea baja preferencial" type="button">
                       Platea baja preferencial
                     </button>
-                  </li>
-                  <li>
-                    <button class="dropdown-item" type="button" data-role="ubicacion-item" data-value="Platea inferior preferencial">
+</li>
+<li>
+<button class="dropdown-item" data-role="ubicacion-item" data-value="Platea inferior preferencial" type="button">
                       Platea inferior preferencial
                     </button>
-                  </li>
-                  <li>
-                    <button class="dropdown-item" type="button" data-role="ubicacion-item" data-value="Pase VIP">
+</li>
+<li>
+<button class="dropdown-item" data-role="ubicacion-item" data-value="Pase VIP" type="button">
                       Pase VIP
                     </button>
-                  </li>
-                </ul>
-              </div>
-
-              <!-- input oculto para validación y envío -->
-              <input
-                type="text"
-                id="expUbicacionEstadio"
-                name="ubicacion_estadio"
-                class="d-none"
-                required
-              />
-              <div class="invalid-feedback">
+</li>
+</ul>
+</div>
+<!-- input oculto para validación y envío -->
+<input class="d-none" id="expUbicacionEstadio" name="ubicacion_estadio" required="" type="text"/>
+<div class="invalid-feedback">
                 Seleccioná tu ubicación en el estadio.
               </div>
-            </div>
-
-
-            <!-- FILA 3: experiencia -->
-            <div class="col-12">
-              <label for="expExperiencia" class="form-label form-oasis-label">
+</div>
+<!-- FILA 3: experiencia -->
+<div class="col-12">
+<label class="form-label form-oasis-label text-uppercase" for="expExperiencia">
                 Contános tu experiencia
               </label>
-              <textarea
-                id="expExperiencia"
-                name="experiencia"
-                class="form-control"
-                rows="8"
-                placeholder="¿Viajaste especialmente? ¿Con quién fuiste? ¿Algún momento inolvidable?"
-              ></textarea>
-            </div>
-
-            <!-- FILA 4: subir fotos -->
-            <div class="col-12 col-sm-6">
-              <label class="form-label form-oasis-label d-block">
+<textarea class="form-control" id="expExperiencia" name="experiencia" placeholder="¿Viajaste especialmente? ¿Con quién fuiste? ¿Algún momento inolvidable?" rows="8"></textarea>
+</div>
+<!-- FILA 4: subir fotos -->
+<div class="col-12 col-sm-6">
+<label class="form-label form-oasis-label d-block text-uppercase">
                 Subí tu foto
-                <i
-                  class="bi bi-info-circle ms-1 text-muted"
-                  data-bs-toggle="tooltip"
-                  title="Podés adjuntar hasta 2 imágenes del recital."
-                ></i>
-              </label>
-
-              <div class="input-group custom-file-wrapper">
-                <button type="button" class="btn btn-outline-dark" id="expFileBtn">
+                <i class="bi bi-info-circle ms-1 text-muted" data-bs-toggle="tooltip" title="Podés adjuntar hasta 2 imágenes del recital."></i>
+</label>
+<div class="input-group custom-file-wrapper position-relative">
+<button class="btn btn-outline-dark" id="expFileBtn" type="button">
                   Seleccionar imágenes
                 </button>
-                <span class="form-control custom-file-display" id="expFileLabelText">
+<span class="form-control custom-file-display" id="expFileLabelText">
                   Ningún archivo seleccionado
                 </span>
-                <input
-                  type="file"
-                  id="expFotosReal"
-                  name="fotos"
-                  accept="image/*"
-                  multiple
-                />
-              </div>
-              <div class="form-text">
+<input accept="image/*" class="position-absolute top-0 start-0 w-100 h-100 opacity-0" id="expFotosReal" multiple="" name="fotos" type="file"/>
+</div>
+<div class="form-text">
                 Hasta 2 imágenes (JPG o PNG).
               </div>
-            </div>
-
-            <!-- FILA 5: poll canción que faltó -->
-            <div class="col-12 mb-4">
-              <div class="d-flex align-items-center mb-3">
-                <span class="fw-semibold text-uppercase oasis-label-wide">
+</div>
+<!-- FILA 5: poll canción que faltó -->
+<div class="col-12 mb-4">
+<div class="d-flex align-items-center mb-3">
+<span class="fw-semibold text-uppercase oasis-label-wide">
                   Canción que faltó en el setlist *
                 </span>
-
-                <button
-                  type="button"
-                  class="btn btn-sm btn-outline-secondary ms-2"
-                  data-bs-toggle="popover"
-                  data-bs-trigger="focus"
-                  title="Canción ausente"
-                  data-bs-content="Elegí la canción que más extrañaste escuchar en vivo."
-                >
+<button class="btn btn-sm btn-outline-secondary ms-2" data-bs-content="Elegí la canción que más extrañaste escuchar en vivo." data-bs-toggle="popover" data-bs-trigger="focus" title="Canción ausente" type="button">
                   ?
                 </button>
-              </div>
-
-              <div class="row row-cols-1 row-cols-sm-2 row-cols-lg-3 g-2 mt-2">
-                <!-- radios -->
-                <div class="col">
-                  <div class="form-check">
-                    <input class="form-check-input" type="radio" name="faltaCancion" id="poll1" value="Stop Crying Your Heart Out" required>
-                    <label class="form-check-label" for="poll1">Stop Crying Your Heart Out</label>
-                  </div>
-                </div>
-
-                <div class="col">
-                  <div class="form-check">
-                    <input class="form-check-input" type="radio" name="faltaCancion" id="poll2" value="Columbia" required>
-                    <label class="form-check-label" for="poll2">Columbia</label>
-                  </div>
-                </div>
-
-                <div class="col">
-                  <div class="form-check">
-                    <input class="form-check-input" type="radio" name="faltaCancion" id="poll3" value="Don't Go Away" required>
-                    <label class="form-check-label" for="poll3">Don't Go Away</label>
-                  </div>
-                </div>
-
-                <div class="col">
-                  <div class="form-check">
-                    <input class="form-check-input" type="radio" name="faltaCancion" id="poll4" value="Songbird" required>
-                    <label class="form-check-label" for="poll4">Songbird</label>
-                  </div>
-                </div>
-
-                <div class="col">
-                  <div class="form-check">
-                    <input class="form-check-input" type="radio" name="faltaCancion" id="poll5" value="The Hindu Times" required>
-                    <label class="form-check-label" for="poll5">The Hindu Times</label>
-                  </div>
-                </div>
-
-                <div class="col">
-                  <div class="form-check">
-                    <input class="form-check-input" type="radio" name="faltaCancion" id="poll6" value="The Shock of the Lightning" required>
-                    <label class="form-check-label" for="poll6">The Shock of the Lightning</label>
-                  </div>
-                </div>
-
-                <div class="col">
-                  <div class="form-check">
-                    <input class="form-check-input" type="radio" name="faltaCancion" id="poll7" value="Go Let It Out" required>
-                    <label class="form-check-label" for="poll7">Go Let It Out</label>
-                  </div>
-                </div>
-
-                <div class="col">
-                  <div class="form-check">
-                    <input class="form-check-input" type="radio" name="faltaCancion" id="poll8" value="Who Feels Love?" required>
-                    <label class="form-check-label" for="poll8">Who Feels Love?</label>
-                  </div>
-                </div>
-
-                <div class="col">
-                  <div class="form-check">
-                    <input class="form-check-input" type="radio" name="faltaCancion" id="poll9" value="All Around The World" required>
-                    <label class="form-check-label" for="poll9">All Around The World</label>
-                  </div>
-                </div>
-
-                <div class="col">
-                  <div class="form-check">
-                    <input class="form-check-input" type="radio" name="faltaCancion" id="poll10" value="Lyla" required>
-                    <label class="form-check-label" for="poll10">Lyla</label>
-                  </div>
-                </div>
-
-                <div class="col">
-                  <div class="form-check">
-                    <input class="form-check-input" type="radio" name="faltaCancion" id="poll11" value="Let There Be Love" required>
-                    <label class="form-check-label" for="poll11">Let There Be Love</label>
-                  </div>
-                </div>
-
-                <div class="col">
-                  <div class="form-check">
-                    <input class="form-check-input" type="radio" name="faltaCancion" id="poll12" value="The Importance of Being Idle" required>
-                    <label class="form-check-label" for="poll12">The Importance of Being Idle</label>
-                  </div>
-                </div>
-                
-                <div class="col">
-                  <div class="form-check">
-                    <input class="form-check-input" type="radio" name="faltaCancion" id="poll13" value="Falling Down" required>
-                    <label class="form-check-label" for="poll13">Falling Down</label>
-                  </div>
-                </div>
-
-                <div class="col">
-                  <div class="form-check">
-                    <input class="form-check-input" type="radio" name="faltaCancion" id="poll14" value="It's Good To Be Free" required>
-                    <label class="form-check-label" for="poll14">It's Good To Be Free</label>
-                  </div>
-                </div>
-
-                <div class="col">
-                  <div class="form-check">
-                    <input class="form-check-input" type="radio" name="faltaCancion" id="poll15" value="Roll It Over" required>
-                    <label class="form-check-label" for="poll15">Roll It Over</label>
-                  </div>
-                </div>
-
-              </div>
-
-              <div class="invalid-feedback d-none mt-2" id="pollFeedback">
+</div>
+<div class="row row-cols-1 row-cols-sm-2 row-cols-lg-3 g-2 mt-2">
+<!-- radios -->
+<div class="col">
+<div class="form-check">
+<input class="form-check-input" id="poll1" name="faltaCancion" required="" type="radio" value="Stop Crying Your Heart Out"/>
+<label class="form-check-label" for="poll1">Stop Crying Your Heart Out</label>
+</div>
+</div>
+<div class="col">
+<div class="form-check">
+<input class="form-check-input" id="poll2" name="faltaCancion" required="" type="radio" value="Columbia"/>
+<label class="form-check-label" for="poll2">Columbia</label>
+</div>
+</div>
+<div class="col">
+<div class="form-check">
+<input class="form-check-input" id="poll3" name="faltaCancion" required="" type="radio" value="Don't Go Away"/>
+<label class="form-check-label" for="poll3">Don't Go Away</label>
+</div>
+</div>
+<div class="col">
+<div class="form-check">
+<input class="form-check-input" id="poll4" name="faltaCancion" required="" type="radio" value="Songbird"/>
+<label class="form-check-label" for="poll4">Songbird</label>
+</div>
+</div>
+<div class="col">
+<div class="form-check">
+<input class="form-check-input" id="poll5" name="faltaCancion" required="" type="radio" value="The Hindu Times"/>
+<label class="form-check-label" for="poll5">The Hindu Times</label>
+</div>
+</div>
+<div class="col">
+<div class="form-check">
+<input class="form-check-input" id="poll6" name="faltaCancion" required="" type="radio" value="The Shock of the Lightning"/>
+<label class="form-check-label" for="poll6">The Shock of the Lightning</label>
+</div>
+</div>
+<div class="col">
+<div class="form-check">
+<input class="form-check-input" id="poll7" name="faltaCancion" required="" type="radio" value="Go Let It Out"/>
+<label class="form-check-label" for="poll7">Go Let It Out</label>
+</div>
+</div>
+<div class="col">
+<div class="form-check">
+<input class="form-check-input" id="poll8" name="faltaCancion" required="" type="radio" value="Who Feels Love?"/>
+<label class="form-check-label" for="poll8">Who Feels Love?</label>
+</div>
+</div>
+<div class="col">
+<div class="form-check">
+<input class="form-check-input" id="poll9" name="faltaCancion" required="" type="radio" value="All Around The World"/>
+<label class="form-check-label" for="poll9">All Around The World</label>
+</div>
+</div>
+<div class="col">
+<div class="form-check">
+<input class="form-check-input" id="poll10" name="faltaCancion" required="" type="radio" value="Lyla"/>
+<label class="form-check-label" for="poll10">Lyla</label>
+</div>
+</div>
+<div class="col">
+<div class="form-check">
+<input class="form-check-input" id="poll11" name="faltaCancion" required="" type="radio" value="Let There Be Love"/>
+<label class="form-check-label" for="poll11">Let There Be Love</label>
+</div>
+</div>
+<div class="col">
+<div class="form-check">
+<input class="form-check-input" id="poll12" name="faltaCancion" required="" type="radio" value="The Importance of Being Idle"/>
+<label class="form-check-label" for="poll12">The Importance of Being Idle</label>
+</div>
+</div>
+<div class="col">
+<div class="form-check">
+<input class="form-check-input" id="poll13" name="faltaCancion" required="" type="radio" value="Falling Down"/>
+<label class="form-check-label" for="poll13">Falling Down</label>
+</div>
+</div>
+<div class="col">
+<div class="form-check">
+<input class="form-check-input" id="poll14" name="faltaCancion" required="" type="radio" value="It's Good To Be Free"/>
+<label class="form-check-label" for="poll14">It's Good To Be Free</label>
+</div>
+</div>
+<div class="col">
+<div class="form-check">
+<input class="form-check-input" id="poll15" name="faltaCancion" required="" type="radio" value="Roll It Over"/>
+<label class="form-check-label" for="poll15">Roll It Over</label>
+</div>
+</div>
+</div>
+<div class="invalid-feedback d-none mt-2" id="pollFeedback">
                 Elegí al menos una opción.
               </div>
-            </div>
-
-            <!-- BOTONES -->
-            <div class="col-12 mt-4">
-              <div class="d-flex justify-content-center flex-wrap gap-2">
-                <button type="submit" class="btn btn-oasis-primary px-4">
+</div>
+<!-- BOTONES -->
+<div class="col-12 mt-4">
+<div class="d-flex justify-content-center flex-wrap gap-2">
+<button class="btn btn-oasis-primary px-4" type="submit">
                   Enviar experiencia
                 </button>
-                <button
-                  type="button"
-                  id="expResetBtn"
-                  class="btn btn-outline-secondary btn-oasis-secondary px-4"
-                >
+<button class="btn btn-outline-secondary btn-oasis-secondary px-4" id="expResetBtn" type="button">
                   Limpiar formulario
                 </button>
-              </div>
-            </div>
-
-          </form>
-
-        </div>
-      </div>
-    </div>
-  </div>
+</div>
+</div>
+</form>
+</div>
+</div>
+</div>
+</div>
 </div>
 
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-      </section>
 
-      <!-- SECCIÓN MISCELÁNEAS -->
-      <section id="miscelaneas" class="pt-0 pb-5">
-        <!-- HERO FULL WIDTH SOLO IMAGEN -->
-        <div class="container-fluid p-0">
-          <img
-            src="img/oasis-hero-banner-miscelanea.png"
-            alt="Misceláneas del Tour: Drones"
-            class="img-fluid w-100"
-          />
-        </div>
-        
-        <!-- TÍTULO -->
+
+
+
+</section>
+<!-- SECCIÓN MISCELÁNEAS -->
+<section class="pt-0 pb-5" id="miscelaneas">
+<!-- HERO FULL WIDTH SOLO IMAGEN -->
+<div class="container-fluid p-0">
+<img alt="Misceláneas del Tour: Drones" class="img-fluid w-100" src="img/oasis-hero-banner-miscelanea.png"/>
+</div>
+<!-- TÍTULO -->
 <div class="container pt-3 pb-5 text-center">
-  <p class="section-title mb-1">Misceláneas y particularidades</p>
-  <h2 class="h2 fw-bold text-center mb-2 oasis-heading">Todo lo que dejó la gira</h2>
-  <p class="lead mt-1">Desde los teloneros, hasta los homenajes a los recién fallecidos en Live Forever, pasando por el show de drones, murales e indumentaria exclusiva.
+<p class="section-title mb-1 text-uppercase">Misceláneas y particularidades</p>
+<h2 class="h2 fw-bold text-center mb-2 oasis-heading text-uppercase">Todo lo que dejó la gira</h2>
+<p class="lead mt-1">Desde los teloneros, hasta los homenajes a los recién fallecidos en Live Forever, pasando por el show de drones, murales e indumentaria exclusiva.
   </p>
-  
-
 <!-- TELONEROS DE LA GIRA -->
 <div class="mt-5 teloneros-section">
-            <h3 class="h3 fw-bold text-center mb-4 oasis-heading">Teloneros</h3>
-            <div
-              class="row row-cols-1 row-cols-sm-2 row-cols-md-3 row-cols-lg-6 g-3"
-            >
-
+<h3 class="h3 fw-bold text-center mb-4 oasis-heading text-uppercase">Teloneros</h3>
+<div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 row-cols-lg-6 g-3">
 <!-- Richard Ashcroft -->
 <div class="col">
-  <div class="card h-100 border-0 bg-transparent text-center">
-    <img
-      src="img/telonero1-card.jpg"
-      class="card-img-top rounded telonero-img"
-      alt="Richard Ashcroft Ex The Verve fue uno de los principales teloneros de la gira"
-    />
-    <div class="card-body px-0">
-      <p class="fw-bold mb-1 band-member-name">Richard Ashcroft</p>
-      <p class="small mb-0">Latam y Reino Unido</p>
-
+<div class="card h-100 border-0 bg-transparent text-center">
+<img alt="Richard Ashcroft Ex The Verve fue uno de los principales teloneros de la gira" class="card-img-top rounded telonero-img" src="img/telonero1-card.jpg"/>
+<div class="card-body px-0">
+<p class="fw-bold mb-1 band-member-name">Richard Ashcroft</p>
+<p class="small mb-0">Latam y Reino Unido</p>
 <!-- Canciones populares: icono + tema -->
 <div class="telonero-songs mt-3">
-  <div class="telonero-song-row">
-    <i class="bi bi-file-music" aria-hidden="true"></i>
-    <span>Sonnet</span>
-  </div>
-
-  <div class="telonero-song-row">
-    <i class="bi bi-file-music" aria-hidden="true"></i>
-    <span>A Song for the Lovers</span>
-  </div>
-
-  <div class="telonero-song-row">
-    <i class="bi bi-file-music" aria-hidden="true"></i>
-    <span>Bittersweet Symphony</span>
-  </div>
-</div> 
-    </div>
-  </div>
+<div class="telonero-song-row">
+<i aria-hidden="true" class="bi bi-file-music"></i>
+<span>Sonnet</span>
 </div>
-
+<div class="telonero-song-row">
+<i aria-hidden="true" class="bi bi-file-music"></i>
+<span>A Song for the Lovers</span>
+</div>
+<div class="telonero-song-row">
+<i aria-hidden="true" class="bi bi-file-music"></i>
+<span>Bittersweet Symphony</span>
+</div>
+</div>
+</div>
+</div>
+</div>
 <!-- Cast -->
 <div class="col">
-  <div class="card h-100 border-0 bg-transparent text-center">
-    <img
-      src="img/telonero2-card.jpg"
-      class="card-img-top rounded telonero-img"
-      alt="Banda Británica Cast teloneó a Oasis en Reino Unido e Irlanda"
-    />
-    <div class="card-body px-0">
-      <p class="fw-bold mb-1 band-member-name">Cast</p>
-      <p class="small mb-0">Reino Unido e Irlanda</p>
-
-     <!-- Canciones populares: icono + tema -->
+<div class="card h-100 border-0 bg-transparent text-center">
+<img alt="Banda Británica Cast teloneó a Oasis en Reino Unido e Irlanda" class="card-img-top rounded telonero-img" src="img/telonero2-card.jpg"/>
+<div class="card-body px-0">
+<p class="fw-bold mb-1 band-member-name">Cast</p>
+<p class="small mb-0">Reino Unido e Irlanda</p>
+<!-- Canciones populares: icono + tema -->
 <div class="telonero-songs mt-3">
-  <div class="telonero-song-row">
-    <i class="bi bi-file-music" aria-hidden="true"></i>
-    <span>Walkaway</span>
-  </div>
-
-  <div class="telonero-song-row">
-    <i class="bi bi-file-music" aria-hidden="true"></i>
-    <span>Alright</span>
-  </div>
-
-  <div class="telonero-song-row">
-    <i class="bi bi-file-music" aria-hidden="true"></i>
-    <span>Live the Dream</span>
-  </div>
-</div> 
-    </div>
-  </div>
+<div class="telonero-song-row">
+<i aria-hidden="true" class="bi bi-file-music"></i>
+<span>Walkaway</span>
 </div>
-
+<div class="telonero-song-row">
+<i aria-hidden="true" class="bi bi-file-music"></i>
+<span>Alright</span>
+</div>
+<div class="telonero-song-row">
+<i aria-hidden="true" class="bi bi-file-music"></i>
+<span>Live the Dream</span>
+</div>
+</div>
+</div>
+</div>
+</div>
 <!-- Cage the Elephant -->
 <div class="col">
-  <div class="card h-100 border-0 bg-transparent text-center">
-    <img
-      src="img/telonero3-card.jpg"
-      class="card-img-top rounded telonero-img"
-      alt="Cage the Elephant teloneó a Oasis en Norteamérica"
-    />
-    <div class="card-body px-0">
-      <p class="fw-bold mb-1 band-member-name">Cage the Elephant</p>
-      <p class="small mb-0">Norteamérica</p>
-
-    <!-- Canciones populares: icono + tema -->
+<div class="card h-100 border-0 bg-transparent text-center">
+<img alt="Cage the Elephant teloneó a Oasis en Norteamérica" class="card-img-top rounded telonero-img" src="img/telonero3-card.jpg"/>
+<div class="card-body px-0">
+<p class="fw-bold mb-1 band-member-name">Cage the Elephant</p>
+<p class="small mb-0">Norteamérica</p>
+<!-- Canciones populares: icono + tema -->
 <div class="telonero-songs mt-3">
-  <div class="telonero-song-row">
-    <i class="bi bi-file-music" aria-hidden="true"></i>
-    <span>Trouble</span>
-  </div>
-
-  <div class="telonero-song-row">
-    <i class="bi bi-file-music" aria-hidden="true"></i>
-    <span>Cigarette Daydreams</span>
-  </div>
-
-  <div class="telonero-song-row">
-    <i class="bi bi-file-music" aria-hidden="true"></i>
-    <span>Come a Little Closer</span>
-  </div>
-</div> 
-    </div>
-  </div>
+<div class="telonero-song-row">
+<i aria-hidden="true" class="bi bi-file-music"></i>
+<span>Trouble</span>
 </div>
-
+<div class="telonero-song-row">
+<i aria-hidden="true" class="bi bi-file-music"></i>
+<span>Cigarette Daydreams</span>
+</div>
+<div class="telonero-song-row">
+<i aria-hidden="true" class="bi bi-file-music"></i>
+<span>Come a Little Closer</span>
+</div>
+</div>
+</div>
+</div>
+</div>
 <!-- Ball Park Music -->
 <div class="col">
-  <div class="card h-100 border-0 bg-transparent text-center">
-    <img
-      src="img/telonero4-card.jpg"
-      class="card-img-top rounded telonero-img"
-      alt="Banda Australiana Ball Park Music teloneó a Oasis en Australia"
-    />
-    <div class="card-body px-0">
-      <p class="fw-bold mb-1 band-member-name">Ball Park Music</p>
-      <p class="small mb-0">Australia</p>
-
-      <!-- Icono de música en una sola línea, con poco espacio -->
+<div class="card h-100 border-0 bg-transparent text-center">
+<img alt="Banda Australiana Ball Park Music teloneó a Oasis en Australia" class="card-img-top rounded telonero-img" src="img/telonero4-card.jpg"/>
+<div class="card-body px-0">
+<p class="fw-bold mb-1 band-member-name">Ball Park Music</p>
+<p class="small mb-0">Australia</p>
+<!-- Icono de música en una sola línea, con poco espacio -->
 <!-- Canciones populares: icono + tema -->
 <div class="telonero-songs mt-3">
-  <div class="telonero-song-row">
-    <i class="bi bi-file-music" aria-hidden="true"></i>
-    <span>Cherub</span>
-  </div>
-
-  <div class="telonero-song-row">
-    <i class="bi bi-file-music" aria-hidden="true"></i>
-    <span>Exactly How You Are</span>
-  </div>
-
-  <div class="telonero-song-row">
-    <i class="bi bi-file-music" aria-hidden="true"></i>
-    <span>It's Nice to be Alive</span>
-  </div>
-</div> 
-    </div>
-  </div>
+<div class="telonero-song-row">
+<i aria-hidden="true" class="bi bi-file-music"></i>
+<span>Cherub</span>
 </div>
-
+<div class="telonero-song-row">
+<i aria-hidden="true" class="bi bi-file-music"></i>
+<span>Exactly How You Are</span>
+</div>
+<div class="telonero-song-row">
+<i aria-hidden="true" class="bi bi-file-music"></i>
+<span>It's Nice to be Alive</span>
+</div>
+</div>
+</div>
+</div>
+</div>
 <!-- Asian Kung Fu Generation -->
 <div class="col">
-  <div class="card h-100 border-0 bg-transparent text-center">
-    <img
-      src="img/telonero5-card.jpg"
-      class="card-img-top rounded telonero-img"
-      alt="Asian Kung Fu Generation teloneó a Oasis en Japón y Corea"
-    />
-    <div class="card-body px-0">
-      <p class="fw-bold mb-1 band-member-name">Asian Kung Fu Gen</p>
-      <p class="small mb-0">Japón y Corea</p>
-
-      <!-- Canciones populares: icono + tema -->
-<div class="telonero-songs mt-3">
-  <div class="telonero-song-row">
-    <i class="bi bi-file-music" aria-hidden="true"></i>
-    <span>Re:Re:</span>
-  </div>
-
-  <div class="telonero-song-row">
-    <i class="bi bi-file-music" aria-hidden="true"></i>
-    <span>Solanin</span>
-  </div>
-
-  <div class="telonero-song-row">
-    <i class="bi bi-file-music" aria-hidden="true"></i>
-    <span>Kimi To Lu Hana</span>
-  </div>
-</div> 
-    </div>
-  </div>
-</div>
-
-<!-- Otoboke Beaver -->
-<div class="col">
-  <div class="card h-100 border-0 bg-transparent text-center">
-    <img
-      src="img/telonero6-card.jpg"
-      class="card-img-top rounded telonero-img"
-      alt="Otoboke Beaver teloneó a Oasis en Japón y Corea"
-    />
-    <div class="card-body px-0">
-      <p class="fw-bold mb-1 band-member-name">Otoboke Beaver</p>
-      <p class="small mb-0">Japón y Corea</p>
-
+<div class="card h-100 border-0 bg-transparent text-center">
+<img alt="Asian Kung Fu Generation teloneó a Oasis en Japón y Corea" class="card-img-top rounded telonero-img" src="img/telonero5-card.jpg"/>
+<div class="card-body px-0">
+<p class="fw-bold mb-1 band-member-name">Asian Kung Fu Gen</p>
+<p class="small mb-0">Japón y Corea</p>
 <!-- Canciones populares: icono + tema -->
 <div class="telonero-songs mt-3">
-  <div class="telonero-song-row">
-    <i class="bi bi-file-music" aria-hidden="true"></i>
-    <span>I'm Not Maternal</span>
-  </div>
-
-  <div class="telonero-song-row">
-    <i class="bi bi-file-music" aria-hidden="true"></i>
-    <span>Bakuro Book</span>
-  </div>
-
-  <div class="telonero-song-row">
-    <i class="bi bi-file-music" aria-hidden="true"></i>
-    <span>Don't Light My Fire</span>
-  </div>
-</div> 
-    </div>
-  </div>
+<div class="telonero-song-row">
+<i aria-hidden="true" class="bi bi-file-music"></i>
+<span>Re:Re:</span>
 </div>
-            </div>
-          </div>
-<br><br>
-
-                   <!-- CONTENIDO PRINCIPAL INICIO -->
-        <div class="container py-5">
-          <div class="row g-4 align-items-stretch">
-
+<div class="telonero-song-row">
+<i aria-hidden="true" class="bi bi-file-music"></i>
+<span>Solanin</span>
+</div>
+<div class="telonero-song-row">
+<i aria-hidden="true" class="bi bi-file-music"></i>
+<span>Kimi To Lu Hana</span>
+</div>
+</div>
+</div>
+</div>
+</div>
+<!-- Otoboke Beaver -->
+<div class="col">
+<div class="card h-100 border-0 bg-transparent text-center">
+<img alt="Otoboke Beaver teloneó a Oasis en Japón y Corea" class="card-img-top rounded telonero-img" src="img/telonero6-card.jpg"/>
+<div class="card-body px-0">
+<p class="fw-bold mb-1 band-member-name">Otoboke Beaver</p>
+<p class="small mb-0">Japón y Corea</p>
+<!-- Canciones populares: icono + tema -->
+<div class="telonero-songs mt-3">
+<div class="telonero-song-row">
+<i aria-hidden="true" class="bi bi-file-music"></i>
+<span>I'm Not Maternal</span>
+</div>
+<div class="telonero-song-row">
+<i aria-hidden="true" class="bi bi-file-music"></i>
+<span>Bakuro Book</span>
+</div>
+<div class="telonero-song-row">
+<i aria-hidden="true" class="bi bi-file-music"></i>
+<span>Don't Light My Fire</span>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+<br/><br/>
+<!-- CONTENIDO PRINCIPAL INICIO -->
+<div class="container py-5">
+<div class="row g-4 align-items-stretch">
 <!-- IZQUIERDA: SLIDER -->
 <aside class="col-12 col-lg-6">
-<div
-  id="carouselTourTributos"
-  class="carousel slide carousel-fade h-100"
-  data-bs-ride="carousel"
->
-
-    <div class="carousel-inner">
-                  <div class="carousel-item active">
-                    <img
-                      src="img/carrusel-homenaje-1.jpg"
-                      class="d-block w-100"
-                      alt="Oasis Live '25 Homenajes - Slide 1"
-                    />
-                  </div>
-                  <div class="carousel-item">
-                    <img
-                      src="img/carrusel-homenaje-2.jpg"
-                      class="d-block w-100"
-                      alt="Oasis Live '25 Homenajes - Slide 2"
-                    />
-                  </div>
-                  <div class="carousel-item">
-                    <img
-                      src="img/carrusel-homenaje-3.jpg"
-                      class="d-block w-100"
-                      alt="Oasis Live '25 Homenajes - Slide 3"
-                    />
-                  </div>
-                  <div class="carousel-item">
-                    <img
-                      src="img/carrusel-homenaje-4.jpg"
-                      class="d-block w-100"
-                      alt="Oasis Live '25 Homenajes - Slide 4"
-                    />
-                  </div>
-                  <div class="carousel-item">
-                    <img
-                      src="img/carrusel-homenaje-5.jpg"
-                      class="d-block w-100"
-                      alt="Oasis Live '25 Homenajes - Slide 5"
-                    />
-                  </div>
-                  <div class="carousel-item">
-                    <img
-                      src="img/carrusel-homenaje-6.jpg"
-                      class="d-block w-100"
-                      alt="Oasis Live '25 Homenajes - Slide 6"
-                    />
-                  </div>
-                </div>
-
-    <button
-      class="carousel-control-prev"
-      type="button"
-      data-bs-target="#carouselTourTributos"
-      data-bs-slide="prev"
-    >
-                  <span
-                    class="carousel-control-prev-icon"
-                    aria-hidden="true"
-                  ></span>
-                  <span class="visually-hidden">Anterior</span>
-                </button>
-                    <button
-      class="carousel-control-next"
-      type="button"
-      data-bs-target="#carouselTourTributos"
-      data-bs-slide="next"
-    >
-                  <span
-                    class="carousel-control-next-icon"
-                    aria-hidden="true"
-                  ></span>
-                  <span class="visually-hidden">Siguiente</span>
-                </button>
-              </div>
-            </aside>
-
-            <!-- TEXTO DERECHA -->
-            <article class="col-12 col-lg-6">
-              <p class="section-title mb-1">En Live Forever y Murales</p>
-              <h3 class="h3 fw-bold oasis-heading">Homenajes del Tour</h3>
-
-              <p class="lead mt-3">
+<div class="carousel slide carousel-fade h-100" data-bs-ride="carousel" id="carouselTourTributos">
+<div class="carousel-inner">
+<div class="carousel-item active">
+<img alt="Oasis Live '25 Homenajes - Slide 1" class="d-block w-100" src="img/carrusel-homenaje-1.jpg"/>
+</div>
+<div class="carousel-item">
+<img alt="Oasis Live '25 Homenajes - Slide 2" class="d-block w-100" src="img/carrusel-homenaje-2.jpg"/>
+</div>
+<div class="carousel-item">
+<img alt="Oasis Live '25 Homenajes - Slide 3" class="d-block w-100" src="img/carrusel-homenaje-3.jpg"/>
+</div>
+<div class="carousel-item">
+<img alt="Oasis Live '25 Homenajes - Slide 4" class="d-block w-100" src="img/carrusel-homenaje-4.jpg"/>
+</div>
+<div class="carousel-item">
+<img alt="Oasis Live '25 Homenajes - Slide 5" class="d-block w-100" src="img/carrusel-homenaje-5.jpg"/>
+</div>
+<div class="carousel-item">
+<img alt="Oasis Live '25 Homenajes - Slide 6" class="d-block w-100" src="img/carrusel-homenaje-6.jpg"/>
+</div>
+</div>
+<button class="carousel-control-prev" data-bs-slide="prev" data-bs-target="#carouselTourTributos" type="button">
+<span aria-hidden="true" class="carousel-control-prev-icon"></span>
+<span class="visually-hidden">Anterior</span>
+</button>
+<button class="carousel-control-next" data-bs-slide="next" data-bs-target="#carouselTourTributos" type="button">
+<span aria-hidden="true" class="carousel-control-next-icon"></span>
+<span class="visually-hidden">Siguiente</span>
+</button>
+</div>
+</aside>
+<!-- TEXTO DERECHA -->
+<article class="col-12 col-lg-6">
+<p class="section-title mb-1 text-uppercase">En Live Forever y Murales</p>
+<h3 class="h3 fw-bold oasis-heading text-uppercase">Homenajes del Tour</h3>
+<p class="lead mt-3">
                 Oasis rindió homenaje a figuras icónicas fallecidas y recibió su propio homenaje con murales dedicados en algunas ciudades.</p>
-                <h4 class="h4 mt-4">En el set de Live Forever</h4>
-                <ul class="homenajes-list">
-                  <li> <b>Músicos:</b><br class="d-lg-none"> Ozzy Osbourne y Mani Mounfield</li>
-                  <li> <b>Futbolistas:</b><br class="d-lg-none"> Diogo Jota y Diego Maradona</li>
-                  <li> <b>Ciudadanos:</b><br class="d-lg-none"> fallecidos en el tiroteo de Minneapolis</li> 
-                </ul>
-
-              <h4 class="h4 mt-4">Murales condecorativos</h4>
-              <p class="mt-3">
+<h4 class="h4 mt-4">En el set de Live Forever</h4>
+<ul class="homenajes-list">
+<li> <b>Músicos:</b><br class="d-lg-none"/> Ozzy Osbourne y Mani Mounfield</li>
+<li> <b>Futbolistas:</b><br class="d-lg-none"/> Diogo Jota y Diego Maradona</li>
+<li> <b>Ciudadanos:</b><br class="d-lg-none"/> fallecidos en el tiroteo de Minneapolis</li>
+</ul>
+<h4 class="h4 mt-4">Murales condecorativos</h4>
+<p class="mt-3">
                 Ya sea en su Manchester nativo o en Buenos Aires, varios artistas se juntaron para homenajear el impacto cultural y musical que significó la reunión del grupo para realizar éste tour. En las imágenes, veremos los homenajes y murales de Buenos Aires y Manchester (Hecho por el Wrapped de Spotify).
               </p>
-            </article>
-          </div>
-
-         <!-- VIDEO DRONES -->
+</article>
+</div>
+<!-- VIDEO DRONES -->
 <div class="mt-5 misc-video-block">
-  <div class="card h-100 border-0 bg-transparent text-center">
-    <div class="container py-5">
-      <div class="row justify-content-center">
-        <div class="col-lg-8 text-center">
-
-          <h3 class="h3 fw-bold oasis-heading mb-4">
+<div class="card h-100 border-0 bg-transparent text-center">
+<div class="container py-5">
+<div class="row justify-content-center">
+<div class="col-lg-8 text-center">
+<h3 class="h3 fw-bold oasis-heading mb-4 text-uppercase">
             Show de Drones
           </h3>
-
-          <!-- Video responsivo con utilidades nativas de Bootstrap 5 -->
-          <div class="ratio ratio-16x9 mb-4">
-            <iframe
-              src="https://www.youtube.com/embed/x0SqGU_N-Y4?si=PhJjkTnP6aIeWCbx"
-              title="Oasis Live '25 - Resumen de la gira"
-              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-              allowfullscreen
-            ></iframe>
-          </div>
-
-          <!-- Texto resumen debajo del video -->
-          <p class="mt-3">
+<!-- Video responsivo con utilidades nativas de Bootstrap 5 -->
+<div class="ratio ratio-16x9 mb-4">
+<iframe allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen="" src="https://www.youtube.com/embed/x0SqGU_N-Y4?si=PhJjkTnP6aIeWCbx" title="Oasis Live '25 - Resumen de la gira"></iframe>
+</div>
+<!-- Texto resumen debajo del video -->
+<p class="mt-3">
             La noche anterior al primer show de cada ciudad, un equipo especializado desplegaba un espectáculo de drones que iluminaban el cielo formando el
             <i>logo de Oasis</i> para recrear una atmósfera mágica que anticiparía la excelente performance del recital.
           </p>
-
-          <!-- Mini infografía: drone + estadio -->
-          <div class="d-flex flex-column flex-md-row justify-content-center align-items-center gap-4 mt-4">
-
-            <!-- Bloque DRONE -->
-            <div class="d-flex flex-column align-items-center">
-              <div class="setlist-singer-icon mb-2">
-                <img src="img/icon-drone.png" alt="Ícono de drone" aria-hidden="true" />
-              </div>
-
-              <div class="mt-2">
-                <div class="tour-infografia-num">1000</div>
-                <div class="tour-infografia-label">Drones</div>
-
-                <!-- Tiempo con mismo estilo que en el setlist -->
-                <span class="setlist-meta-inline">
-                  <span class="setlist-meta-block">
-                    <i class="bi bi-stopwatch" aria-hidden="true"></i>
-                    <span>15:00</span>
-                  </span>
-                </span>
-              </div>
-            </div>
-
-            <!-- Bloque ESTADIO -->
-            <div class="d-flex flex-column align-items-center">
-              <div class="setlist-singer-icon mb-2">
-                <img src="img/icon-stadium.png" alt="Ícono de estadio" aria-hidden="true" />
-              </div>
-
-              <div class="mt-2">
-                <div class="tour-infografia-num">41</div>
-                <div class="tour-infografia-label">Shows</div>
-
-                <!-- Meta con mismo estilo que el setlist -->
-                <span class="setlist-meta-inline">
-                  <span class="setlist-meta-block">
-                    <i class="bi bi-geo-alt" aria-hidden="true"></i>
-                    <span>Estadios</span>
-                  </span>
-                </span>
-              </div>
-            </div>
-
-          </div><!-- /mini infografía -->
-
-        </div><!-- /col -->
-      </div><!-- /row -->
-    </div><!-- /container -->
-  </div><!-- /card -->
+<!-- Mini infografía: drone + estadio -->
+<div class="d-flex flex-column flex-md-row justify-content-center align-items-center gap-4 mt-4">
+<!-- Bloque DRONE -->
+<div class="d-flex flex-column align-items-center">
+<div class="setlist-singer-icon mb-2">
+<img alt="Ícono de drone" aria-hidden="true" src="img/icon-drone.png"/>
+</div>
+<div class="mt-2">
+<div class="tour-infografia-num">1000</div>
+<div class="tour-infografia-label text-uppercase">Drones</div>
+<!-- Tiempo con mismo estilo que en el setlist -->
+<span class="setlist-meta-inline">
+<span class="setlist-meta-block">
+<i aria-hidden="true" class="bi bi-stopwatch"></i>
+<span>15:00</span>
+</span>
+</span>
+</div>
+</div>
+<!-- Bloque ESTADIO -->
+<div class="d-flex flex-column align-items-center">
+<div class="setlist-singer-icon mb-2">
+<img alt="Ícono de estadio" aria-hidden="true" src="img/icon-stadium.png"/>
+</div>
+<div class="mt-2">
+<div class="tour-infografia-num">41</div>
+<div class="tour-infografia-label text-uppercase">Shows</div>
+<!-- Meta con mismo estilo que el setlist -->
+<span class="setlist-meta-inline">
+<span class="setlist-meta-block">
+<i aria-hidden="true" class="bi bi-geo-alt"></i>
+<span>Estadios</span>
+</span>
+</span>
+</div>
+</div>
+</div><!-- /mini infografía -->
+</div><!-- /col -->
+</div><!-- /row -->
+</div><!-- /container -->
+</div><!-- /card -->
 </div><!-- /mt-5 -->
-
-
 <!-- VIDEO LANZAMIENTO ADIDAS ORIGINALS -->
 <div class="mt-5 misc-video-block">
-  <div class="card h-100 border-0 bg-transparent text-center">
-    <div class="container py-5">
-      <div class="row justify-content-center">
-        <div class="col-lg-8 text-center">
-
-          <h3 class="h3 fw-bold oasis-heading mb-4">
+<div class="card h-100 border-0 bg-transparent text-center">
+<div class="container py-5">
+<div class="row justify-content-center">
+<div class="col-lg-8 text-center">
+<h3 class="h3 fw-bold oasis-heading mb-4 text-uppercase">
             Lanzamiento Adidas Originals
           </h3>
-
-          <!-- Video responsivo con utilidades nativas de Bootstrap 5 -->
-          <div class="ratio ratio-16x9 mb-4">
-            <iframe
-              src="https://www.youtube.com/embed/N3r7c0OH9og?si=5674E47sLbSFOJZv"
-              title="Oasis Live '25 - Adidas Originals"
-              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-              allowfullscreen
-            ></iframe>
-          </div>
-
-          <!-- Texto resumen debajo del video -->
-          <p class="mt-3">
+<!-- Video responsivo con utilidades nativas de Bootstrap 5 -->
+<div class="ratio ratio-16x9 mb-4">
+<iframe allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen="" src="https://www.youtube.com/embed/N3r7c0OH9og?si=5674E47sLbSFOJZv" title="Oasis Live '25 - Adidas Originals"></iframe>
+</div>
+<!-- Texto resumen debajo del video -->
+<p class="mt-3">
             Adidas lanzó una <b>línea exclusiva de indumentaria</b> inspirada en Oasis Live '25, disponible en tiendas seleccionadas y en línea. La colección incluye camisetas, camperas y accesorios que reflejan el espíritu del tour y la estética de la banda.
           </p>
-
-          <!-- Mini destacados: 8 prendas adidas -->
-          <h3 class="h5 card-title tour-item-city mt-4">Prendas Destacadas</h3>
-
-          <div class="row row-cols-2 row-cols-lg-4 g-4 mt-4 adidas-prendas-grid">
-
-            <!-- Bloque PILUSO -->
-            <div class="col">
-              <div class="d-flex flex-column align-items-center">
-                <div class="setlist-singer-icon mb-2">
-                  <img src="img/adidas-piluso.png" alt="Piluso adidas oasis" aria-hidden="true" />
-                </div>
-                <div class="mt-2">
-                  <div class="tour-infografia-label">Piluso</div>
-                </div>
-              </div>
-            </div>
-
-            <!-- Bloque Camiseta tipo fútbol -->
-            <div class="col">
-              <div class="d-flex flex-column align-items-center">
-                <div class="setlist-singer-icon mb-2">
-                  <img src="img/adidas-camiseta.png" alt="Camiseta adidas oasis" aria-hidden="true" />
-                </div>
-                <div class="mt-2">
-                  <div class="tour-infografia-label">Camiseta</div>
-                </div>
-              </div>
-            </div>
-
-            <!-- Bloque Campera -->
-            <div class="col">
-              <div class="d-flex flex-column align-items-center">
-                <div class="setlist-singer-icon mb-2">
-                  <img src="img/adidas-campera.png" alt="Campera adidas oasis" aria-hidden="true" />
-                </div>
-                <div class="mt-2">
-                  <div class="tour-infografia-label">Campera</div>
-                </div>
-              </div>
-            </div>
-
-            <!-- Bloque Pantalón -->
-            <div class="col">
-              <div class="d-flex flex-column align-items-center">
-                <div class="setlist-singer-icon mb-2">
-                  <img src="img/adidas-pantalon.png" alt="Pantalón adidas oasis" aria-hidden="true" />
-                </div>
-                <div class="mt-2">
-                  <div class="tour-infografia-label">Pantalón</div>
-                </div>
-              </div>
-            </div>
-
-            <!-- Bloque Remera -->
-            <div class="col">
-              <div class="d-flex flex-column align-items-center">
-                <div class="setlist-singer-icon mb-2">
-                  <img src="img/adidas-remera.png" alt="Remera adidas oasis" aria-hidden="true" />
-                </div>
-                <div class="mt-2">
-                  <div class="tour-infografia-label">Remera</div>
-                </div>
-              </div>
-            </div>
-
-            <!-- Bloque Remera Larga -->
-            <div class="col">
-              <div class="d-flex flex-column align-items-center">
-                <div class="setlist-singer-icon mb-2">
-                  <img src="img/adidas-remera-larga.png" alt="Remera mangas largas adidas oasis" aria-hidden="true" />
-                </div>
-                <div class="mt-2">
-                  <div class="tour-infografia-label">Mangas</div>
-                </div>
-              </div>
-            </div>
-
-            <!-- Bloque Buzo -->
-            <div class="col">
-              <div class="d-flex flex-column align-items-center">
-                <div class="setlist-singer-icon mb-2">
-                  <img src="img/adidas-buzo.png" alt="Buzo adidas oasis" aria-hidden="true" />
-                </div>
-                <div class="mt-2">
-                  <div class="tour-infografia-label">Buzo</div>
-                </div>
-              </div>
-            </div>
-
-            <!-- Bloque Campera Deportiva -->
-            <div class="col">
-              <div class="d-flex flex-column align-items-center">
-                <div class="setlist-singer-icon mb-2">
-                  <img src="img/adidas-deportiva.png" alt="Campera deportiva adidas oasis" aria-hidden="true" />
-                </div>
-                <div class="mt-2">
-                  <div class="tour-infografia-label">Deportiva</div>
-                </div>
-              </div>
-            </div>
-
-          </div>
-
-        </div>
-      </div>
-    </div>
-  </div>
+<!-- Mini destacados: 8 prendas adidas -->
+<h3 class="h5 card-title tour-item-city mt-4 text-uppercase">Prendas Destacadas</h3>
+<div class="row row-cols-2 row-cols-lg-4 g-4 mt-4 adidas-prendas-grid">
+<!-- Bloque PILUSO -->
+<div class="col">
+<div class="d-flex flex-column align-items-center">
+<div class="setlist-singer-icon mb-2">
+<img alt="Piluso adidas oasis" aria-hidden="true" src="img/adidas-piluso.png"/>
 </div>
-
-      </section>
-    </main>
-
+<div class="mt-2">
+<div class="tour-infografia-label text-uppercase">Piluso</div>
+</div>
+</div>
+</div>
+<!-- Bloque Camiseta tipo fútbol -->
+<div class="col">
+<div class="d-flex flex-column align-items-center">
+<div class="setlist-singer-icon mb-2">
+<img alt="Camiseta adidas oasis" aria-hidden="true" src="img/adidas-camiseta.png"/>
+</div>
+<div class="mt-2">
+<div class="tour-infografia-label text-uppercase">Camiseta</div>
+</div>
+</div>
+</div>
+<!-- Bloque Campera -->
+<div class="col">
+<div class="d-flex flex-column align-items-center">
+<div class="setlist-singer-icon mb-2">
+<img alt="Campera adidas oasis" aria-hidden="true" src="img/adidas-campera.png"/>
+</div>
+<div class="mt-2">
+<div class="tour-infografia-label text-uppercase">Campera</div>
+</div>
+</div>
+</div>
+<!-- Bloque Pantalón -->
+<div class="col">
+<div class="d-flex flex-column align-items-center">
+<div class="setlist-singer-icon mb-2">
+<img alt="Pantalón adidas oasis" aria-hidden="true" src="img/adidas-pantalon.png"/>
+</div>
+<div class="mt-2">
+<div class="tour-infografia-label text-uppercase">Pantalón</div>
+</div>
+</div>
+</div>
+<!-- Bloque Remera -->
+<div class="col">
+<div class="d-flex flex-column align-items-center">
+<div class="setlist-singer-icon mb-2">
+<img alt="Remera adidas oasis" aria-hidden="true" src="img/adidas-remera.png"/>
+</div>
+<div class="mt-2">
+<div class="tour-infografia-label text-uppercase">Remera</div>
+</div>
+</div>
+</div>
+<!-- Bloque Remera Larga -->
+<div class="col">
+<div class="d-flex flex-column align-items-center">
+<div class="setlist-singer-icon mb-2">
+<img alt="Remera mangas largas adidas oasis" aria-hidden="true" src="img/adidas-remera-larga.png"/>
+</div>
+<div class="mt-2">
+<div class="tour-infografia-label text-uppercase">Mangas</div>
+</div>
+</div>
+</div>
+<!-- Bloque Buzo -->
+<div class="col">
+<div class="d-flex flex-column align-items-center">
+<div class="setlist-singer-icon mb-2">
+<img alt="Buzo adidas oasis" aria-hidden="true" src="img/adidas-buzo.png"/>
+</div>
+<div class="mt-2">
+<div class="tour-infografia-label text-uppercase">Buzo</div>
+</div>
+</div>
+</div>
+<!-- Bloque Campera Deportiva -->
+<div class="col">
+<div class="d-flex flex-column align-items-center">
+<div class="setlist-singer-icon mb-2">
+<img alt="Campera deportiva adidas oasis" aria-hidden="true" src="img/adidas-deportiva.png"/>
+</div>
+<div class="mt-2">
+<div class="tour-infografia-label text-uppercase">Deportiva</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div></div></section>
+</main>
 <!-- FOOTER -->
 <footer class="oasis-footer mt-5">
-  <div class="container">
-    <div class="row gy-4 align-items-start">
-      <!-- Columna logo + texto -->
-      <div class="col-md-4">
-        <div class="d-flex align-items-center mb-3">
-          <img
-            src="img/logo-menu.png"
-            alt="Oasis Live '25"
-            class="oasis-footer-logo me-2"
-          />
-          <div class="oasis-footer-brand">
-            <small class="text-white-50">Fan Landing con fines académicos</small>
-          </div>
-        </div>
-      </div>
-
-      <!-- Columna enlaces rápidos -->
-      <div class="col-6 col-md-4 col-lg-3">
-        <h6 class="oasis-footer-title text-warning">Secciones</h6>
-        <ul class="list-unstyled oasis-footer-links">
-          <li><a href="#inicio">Inicio</a></li>
-          <li><a href="#tour">Tour</a></li>
-          <li><a href="#setlist">Setlist</a></li>
-          <li><a href="#experiencias">Experiencias</a></li>
-          <li><a href="#miscelaneas">Misceláneas</a></li>
-        </ul>
-      </div>
-
-      <!-- Columna redes + botón arriba -->
-      <div class="col-6 col-md-4 col-lg-5">
-        <h6 class="oasis-footer-title text-warning">Canales oficiales de la banda</h6>
-        <div class="d-flex gap-3 mb-3 oasis-footer-social">
-          <a href="https://oasisinet.com/" aria-label="Sitio oficial">
-            <i class="bi bi-browser-chrome"></i>
-          </a>
-          <a href="https://www.instagram.com/oasis/" aria-label="Instagram">
-            <i class="bi bi-instagram"></i>
-          </a>
-          <a href="https://www.youtube.com/channel/UCUDVBtnOQi4c7E8jebpjc9Q" aria-label="YouTube">
-            <i class="bi bi-youtube"></i>
-          </a>
-          <a href="https://open.spotify.com/intl-es/artist/2DaxqgrOhkeH0fpeiQq2f4" aria-label="Spotify">
-            <i class="bi bi-spotify"></i>
-          </a>
-          <a href="https://www.facebook.com/OasisOfficial" aria-label="Facebook">
-            <i class="bi bi-facebook"></i>
-          </a>
-          <a href="https://x.com/oasis" aria-label="X (Twitter)">
-            <i class="bi bi-twitter-x"></i>
-          </a>
-        </div>
-
-        <button
-          type="button"
-          class="btn btn-outline-light btn-sm rounded-pill oasis-footer-top"
-          onclick="window.scrollTo({ top: 0, behavior: 'smooth' });"
-        >
+<div class="container">
+<div class="row gy-4 align-items-start">
+<!-- Columna logo + texto -->
+<div class="col-md-4">
+<div class="d-flex align-items-center mb-3">
+<img alt="Oasis Live '25" class="oasis-footer-logo me-2" src="img/logo-menu.png"/>
+<div class="oasis-footer-brand">
+<small class="text-white-50">Fan Landing con fines académicos</small>
+</div>
+</div>
+</div>
+<!-- Columna enlaces rápidos -->
+<div class="col-6 col-md-4 col-lg-3">
+<h6 class="oasis-footer-title text-warning text-uppercase">Secciones</h6>
+<ul class="list-unstyled oasis-footer-links">
+<li><a href="#inicio">Inicio</a></li>
+<li><a href="#tour">Tour</a></li>
+<li><a href="#setlist">Setlist</a></li>
+<li><a href="#experiencias">Experiencias</a></li>
+<li><a href="#miscelaneas">Misceláneas</a></li>
+</ul>
+</div>
+<!-- Columna redes + botón arriba -->
+<div class="col-6 col-md-4 col-lg-5">
+<h6 class="oasis-footer-title text-warning text-uppercase">Canales oficiales de la banda</h6>
+<div class="d-flex gap-3 mb-3 oasis-footer-social">
+<a aria-label="Sitio oficial" href="https://oasisinet.com/">
+<i class="bi bi-browser-chrome"></i>
+</a>
+<a aria-label="Instagram" href="https://www.instagram.com/oasis/">
+<i class="bi bi-instagram"></i>
+</a>
+<a aria-label="YouTube" href="https://www.youtube.com/channel/UCUDVBtnOQi4c7E8jebpjc9Q">
+<i class="bi bi-youtube"></i>
+</a>
+<a aria-label="Spotify" href="https://open.spotify.com/intl-es/artist/2DaxqgrOhkeH0fpeiQq2f4">
+<i class="bi bi-spotify"></i>
+</a>
+<a aria-label="Facebook" href="https://www.facebook.com/OasisOfficial">
+<i class="bi bi-facebook"></i>
+</a>
+<a aria-label="X (Twitter)" href="https://x.com/oasis">
+<i class="bi bi-twitter-x"></i>
+</a>
+</div>
+<button class="btn btn-outline-light btn-sm rounded-pill oasis-footer-top" onclick="window.scrollTo({ top: 0, behavior: 'smooth' });" type="button">
           Volver arriba
         </button>
-      </div>
-    </div>
-
-    <hr class="oasis-footer-divider my-4" />
-
-    <!-- Franja inferior centrada -->
-    <div class="row">
-      <div class="col text-center">
-        <p class="oasis-footer-credits mb-1 small text-white-80">
-          <em>Creado por Carlos Maza</em>
+</div>
+</div>
+<hr class="oasis-footer-divider my-4">
+<!-- Franja inferior centrada -->
+<div class="row">
+<div class="col text-center">
+<p class="oasis-footer-credits mb-1 small text-white-80">
+<em>Creado por Carlos Maza</em>
+</p>
+<p class="oasis-footer-copy mb-0 text-success">
+          © 2025 Oasis Live '25. Todos los derechos reservados.
         </p>
-        <p class="oasis-footer-copy mb-0 text-success">
-          &copy; 2025 Oasis Live '25. Todos los derechos reservados.
-        </p>
-      </div>    
-    </div>
-  </div>
+</div>
+</div>
+</hr></div>
 </footer>
-
-    <!-- Bootstrap JS -->
-<script
-  src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
-  integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
-  crossorigin="anonymous"
-></script>
+<!-- Bootstrap JS -->
+<script crossorigin="anonymous" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
 <script src="oasis-experiencia.js"></script>
-  </body>
+</body>
 </html>

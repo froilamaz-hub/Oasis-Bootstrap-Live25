@@ -452,6 +452,24 @@ document.addEventListener('DOMContentLoaded', function () {
     progressBar.textContent = porcentaje + '%';
   }
 
+// --------------------------------------------------
+// Zoom de imágenes con Modal de Bootstrap
+// --------------------------------------------------
+const zoomModal = document.getElementById('imgZoomModal');
+
+if (zoomModal) {
+  zoomModal.addEventListener('show.bs.modal', event => {
+    const trigger = event.relatedTarget;
+    const src = trigger.dataset.bsImg || trigger.src;
+    zoomModal.querySelector('#imgZoom').src = src;
+  });
+
+  // Evita que <a href="#"> recargue la página
+  document.querySelectorAll('a[data-bs-toggle="modal"]').forEach(a => {
+    a.addEventListener('click', e => e.preventDefault());
+  });
+}
+
   // ==== SUBMIT ====
   form.addEventListener('submit', function (event) {
     event.preventDefault();

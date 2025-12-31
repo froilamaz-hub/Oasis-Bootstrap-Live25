@@ -16,6 +16,11 @@ body {
     "Segoe UI", sans-serif;
 }
 
+/* Así la barra vertical siempre está presente y no cambia el ancho, se utiliza para cuando se abren los modals de la ropa de adidas */
+html {
+  overflow-y: scroll;
+}
+
 /* Titulares genéricos (alineados con la estética del sitio) */
 h1,
 h2,
@@ -44,6 +49,15 @@ h3.oasis-heading {
   background-color: #181818;
   padding-top: 0.6rem;
   padding-bottom: 0.6rem;
+}
+
+/* Para que no se corra cuando abro modals de adidas */
+.oasis-navbar .container {
+    max-width: none !important;
+  width: 100%;
+  padding-left: 1rem;
+  padding-right: 1rem; 
+  margin: 0 auto;     /* Para centrar contenido interno */
 }
 
 .oasis-logo-img {
@@ -104,7 +118,6 @@ main {
 
 .section-title {
   letter-spacing: 0.08em;
-
   font-size: 0.9rem;
   color: #7a6c55;
 }
@@ -118,9 +131,9 @@ section[id] {
   color: grey;
 }
 
-/* ===================== */
+/* ======================== */
 /* TOUR: SLIDER + INFOGRAFÍA 
-/* ===================== */
+/* ======================== */
 
 .tour-infografia-item {
   display: flex;
@@ -718,6 +731,12 @@ section[id] {
 .telonero-song-row i {
   font-size: 0.95rem;
 }
+
+/* Evita que Bootstrap agrege padding-right al cerrar/abrir el modal */
+body.modal-open {
+  padding-right: 0 !important;
+}
+
 
 /* === ICONO HAMBURGUESA → CRUZ EN MOBILE/TABLET === */
 
